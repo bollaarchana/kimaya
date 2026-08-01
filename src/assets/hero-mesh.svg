@@ -1,0 +1,52 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 900 700"
+    preserveAspectRatio="xMidYMid slice">
+
+    <defs>
+
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#F7F3FF"/>
+        </linearGradient>
+
+    </defs>
+
+    <rect width="100%" height="100%" fill="url(#bg)"/>
+
+    <g
+        stroke="#7C4DFF"
+        stroke-width="1"
+        fill="none"
+        opacity=".08">
+
+        <!-- Vertical Curves -->
+
+        <path d="M-120 700 C180 520 180 180 -120 0"/>
+        <path d="M-60 700 C240 520 240 180 -60 0"/>
+        <path d="M0 700 C300 520 300 180 0 0"/>
+        <path d="M60 700 C360 520 360 180 60 0"/>
+        <path d="M120 700 C420 520 420 180 120 0"/>
+        <path d="M180 700 C480 520 480 180 180 0"/>
+        <path d="M240 700 C540 520 540 180 240 0"/>
+        <path d="M300 700 C600 520 600 180 300 0"/>
+        <path d="M360 700 C660 520 660 180 360 0"/>
+        <path d="M420 700 C720 520 720 180 420 0"/>
+        <path d="M480 700 C780 520 780 180 480 0"/>
+        <path d="M540 700 C840 520 840 180 540 0"/>
+
+        <!-- Horizontal Curves -->
+
+        <path d="M0 -120 C220 180 680 180 900 -120"/>
+        <path d="M0 -60 C220 240 680 240 900 -60"/>
+        <path d="M0 0 C220 300 680 300 900 0"/>
+        <path d="M0 60 C220 360 680 360 900 60"/>
+        <path d="M0 120 C220 420 680 420 900 120"/>
+        <path d="M0 180 C220 480 680 480 900 180"/>
+        <path d="M0 240 C220 540 680 540 900 240"/>
+        <path d="M0 300 C220 600 680 600 900 300"/>
+        <path d="M0 360 C220 660 680 660 900 360"/>
+
+    </g>
+
+</svg>
