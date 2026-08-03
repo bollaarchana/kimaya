@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 left-0 w-full z-50 bg-white shadow-sm">
       <Container fluid="xxl">
-        <div className="flex items-center justify-between md:justify-evenly h-24">
+        <div className="flex items-center justify-between lg:justify-evenly h-24">
           {/* Logo */}
 
           <a href="/" className="flex-shrink-0">
@@ -33,8 +33,9 @@ export default function Header() {
 
           {/* Desktop Menu */}
           <nav className="hidden lg:flex items-center gap-8 lg:gap-3 xl:gap-10">
-            {navLinks.map((item) => (
+            {navLinks.map((item,i) => (
               <NavLink
+              key={i}
                 to={item.path}
                 className={({ isActive }) =>
                   `relative pb-2 text-[15px] xl:text-lg font-medium ${
