@@ -65,8 +65,7 @@ const Industries = () => {
               <img src={industryMap} className="img-fluid" />
             </Col>
           </Row>
-        </Container>
-        <div className="flex justify-content-end">
+          <div className="flex justify-content-end">
           <NavLink
             to={"/industries"}
             className="hover:text-white !no-underline !text-[#2D1663] px-8 py-2 
@@ -76,6 +75,8 @@ const Industries = () => {
             <FaArrowRight />
           </NavLink>
         </div>
+        </Container>
+        
       </section>
     </>
   );

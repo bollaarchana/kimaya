@@ -78,7 +78,7 @@ export default function ServicesHome() {
           </div>
         ))}
       </div>
-      <div className="flex justify-content-end">
+      <div className="container flex justify-content-end">
         <NavLink
           to={"/service"}
           className="hover:text-white !no-underline !text-[#2D1663] px-8 py-2 

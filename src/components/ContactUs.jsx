@@ -15,13 +15,13 @@ const ContactUs = () => {
           <div className="absolute bottom-0 left-0 w-32 h-32 md:w-[300px] md:h-[300px] bg-blue-500/10 rounded-full blur-[60px] md:blur-[100px] pointer-events-none"></div>
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <h1
-              className="text-2xl md:text-5xl font-serif font-bold text-white mb-3 md:mb-6 leading-tight"
+              className="text-2xl md:text-5xl font-serif font-bold text-black mb-3 md:mb-6 leading-tight"
               style={{opacity: "1", transform: "none"}}
             >
               Get in Touch
             </h1>
             <div
-              className="text-blue-100 text-sm md:text-lg max-w-4xl mx-auto leading-relaxed md:leading-relaxed font-light"
+              className="text-blue-800 text-sm md:text-lg max-w-4xl mx-auto leading-relaxed md:leading-relaxed font-light"
               style={{opacity: "1", transform: "none"}}
             >
               Have a query? We are here to help. Reach out to us via phone,
@@ -38,18 +38,7 @@ const ContactUs = () => {
     backgroundSize: "28px 28px",
   }}
           ></div>
-          {/* <div className="container mx-auto px-6 max-w-6xl relative z-10">
-            <div className="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
-              <div className="flex justify-center order-2 md:order-1">
-                <img
-                  src="/assets/contact-tava-CzhTyr0B.avif"
-                  alt="Contact Tava Academy"
-                  className="w-full 
-                          max-w-xs md:max-w-sm rounded-3xl border-[6px] border-white shadow-2xl hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-            </div>
-          </div> */}
+          
         </section>
         <section
           className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
@@ -104,7 +93,7 @@ const ContactUs = () => {
                 </div>
               </a>
               <a
-                href="mailto:tavaacademy369@gmail.com"
+                href=""
                 className="flex items-center md:items-start 
                                                       gap-4 group bg-white/5 p-5 rounded-2xl border border-white/5 md:bg-transparent md:border-none md:p-0 
                                                       transition-all duration-300 hover:bg-white/10"
@@ -144,7 +133,7 @@ const ContactUs = () => {
                 </div>
               </a>
               <a
-                href="https://maps.app.goo.gl/g74W6BfGBTvtEprT6?g_st=awb"
+                href=""
                 className="flex items-center md:items-start gap-4 group bg-white/5 p-5 rounded-2xl 
                                                                   border border-white/5 md:bg-transparent md:border-none md:p-0 transition-all 
                                                                   duration-300 hover:bg-white/10"
@@ -186,7 +175,7 @@ const ContactUs = () => {
                 </div>
               </a>
             </div>
-            <div className="mb-20 md:mb-24">
+            {/* <div className="mb-20 md:mb-24">
               <div
                 className="bg-white rounded-3xl md:rounded-[2.5rem] shadow-2xl overflow-hidden border 
                                                                                 border-white/30"
@@ -233,7 +222,7 @@ const ContactUs = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-4">
                 Join Our Community
@@ -247,7 +236,7 @@ const ContactUs = () => {
                                                                                         md:gap-8 max-w-5xl mx-auto"
               >
                 <a
-                  href="https://www.instagram.com/tava_home_tutoring_academy?igsh=ZzYzNGlvbGh6MjEz"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white/10 backdrop-blur-md rounded-2xl 
@@ -285,7 +274,7 @@ const ContactUs = () => {
                   </span>
                 </a>
                 <a
-                  href="https://www.facebook.com/share/1C3W9FRXR1/"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white/10 backdrop-blur-md 
@@ -316,7 +305,7 @@ const ContactUs = () => {
                   </span>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/tava-academy"
+                  href=""
                   target="_blank"
                   rel="noopener 
                                                                                                     noreferrer"
@@ -350,7 +339,7 @@ const ContactUs = () => {
                   </span>
                 </a>
                 <a
-                  href="https://wa.me/918374050237"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white/10 backdrop-blur-md rounded-2xl md:rounded-3xl p-6 
