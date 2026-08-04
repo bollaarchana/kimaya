@@ -4,6 +4,7 @@ import heroImage from "../assets/hero-webp2.png";
 import pattern from "../assets/bg-pattern.png";
 import curve from "../assets/curve.svg";
 import users from "../assets/users.svg";
+import { NavLink } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -46,9 +47,6 @@ export default function Hero() {
                 </span>
 
               </h1>
-
-              <div className="w-14 h-[3px] bg-orange-500 mt-3 mb-1"></div>
-
               <p className="text-base md:text-xl leading-10 text-[#2D1663] max-w-lg">
                 Strategic Talent Acquisition &
                 <br />
@@ -63,13 +61,21 @@ export default function Hero() {
                   Let's Build Your Team
                   <FaArrowRight />
                 </button>
+                <NavLink
+            to={"/service"}
+className="border !border-[#2D1663] hover:bg-[#2D1663] !no-underline
+                hover:text-white transition !text-[#2D1663] px-8 py-2 !rounded-sm 
+                flex items-center gap-3 font-semibold"          >
+            Explore Services
+            <FaArrowRight />
+          </NavLink>
 
-                <button className="border !border-[#2D1663] hover:bg-[#2D1663] 
+                {/* <button className="border !border-[#2D1663] hover:bg-[#2D1663] 
                 hover:text-white transition text-[#2D1663] px-8 py-2 !rounded-sm 
                 flex items-center gap-3 font-semibold">
                   Explore Services
                   <FaArrowRight />
-                </button>
+                </button> */}
 
               </div>
 

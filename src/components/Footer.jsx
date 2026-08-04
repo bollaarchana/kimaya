@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="relative bg-[#0d0f16] text-gray-300 pt-16 pb-10 overflow-hidden">
+    <footer className="relative bg-gray-900 text-gray-300 pt-16 pb-10 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-900/10 via-transparent to-black/70 pointer-events-none"></div>
       <div className="relative container mx-auto px-6 md:px-12 z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
@@ -11,10 +11,12 @@ const Footer = () => {
               src="/images/logo-kimaya.png"
             />
             <p className="text-gray-400 leading-relaxed max-w-xs text-left">
-When the right people meet the right opportunities, extraordinary things happen            </p>
+              When the right people meet the right opportunities, extraordinary
+              things happen{" "}
+            </p>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
+            <h3 className="text-white text-lg font-semibold mb-4">
               Our Services
             </h3>
             <div className="grid grid-cols-1 gap-y-3 text-gray-400">
@@ -22,10 +24,10 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="text-cyan-400 w-5 h-5"
                   height="1em"
                   width="1em"
@@ -41,7 +43,7 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 640 512"
                   className="text-cyan-400 w-5 h-5"
                   height="1em"
@@ -56,10 +58,10 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="text-cyan-400 w-5 h-5"
                   height="1em"
                   width="1em"
@@ -75,10 +77,10 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="text-cyan-400 w-5 h-5"
                   height="1em"
                   width="1em"
@@ -93,10 +95,10 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="text-cyan-400 w-5 h-5"
                   height="1em"
                   width="1em"
@@ -109,74 +111,74 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <span>Corporate Training</span>
               </div>
               <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
-                <svg 
-                stroke="currentColor"
+                <svg
+                  stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="text-cyan-400 w-5 h-5"
                   height="1em"
                   width="1em"
-                  xmlns="http://www.w3.org/2000/svg">
-  <path d="M9 18h6"/>
-  <path d="M10 21h4"/>
-  <path d="M8 9a4 4 0 1 1 8 0c0 1.7-.8 2.8-1.8 3.8-.6.6-1.2 1.3-1.2 2.2h-2c0-.9-.6-1.6-1.2-2.2C8.8 11.8 8 10.7 8 9z"/>
-  <path d="M12 2v2"/>
-  <path d="M4 9H2"/>
-  <path d="M22 9h-2"/>
-  <path d="M6.2 4.2 7.6 5.6"/>
-  <path d="M17.8 4.2 16.4 5.6"/>
-  <path d="M12 12.2l1 1.8 2 .3-1.4 1.4.3 2-1.9-1-1.9 1 .3-2-1.4-1.4 2-.3z"/>
-</svg>
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M9 18h6" />
+                  <path d="M10 21h4" />
+                  <path d="M8 9a4 4 0 1 1 8 0c0 1.7-.8 2.8-1.8 3.8-.6.6-1.2 1.3-1.2 2.2h-2c0-.9-.6-1.6-1.2-2.2C8.8 11.8 8 10.7 8 9z" />
+                  <path d="M12 2v2" />
+                  <path d="M4 9H2" />
+                  <path d="M22 9h-2" />
+                  <path d="M6.2 4.2 7.6 5.6" />
+                  <path d="M17.8 4.2 16.4 5.6" />
+                  <path d="M12 12.2l1 1.8 2 .3-1.4 1.4.3 2-1.9-1-1.9 1 .3-2-1.4-1.4 2-.3z" />
+                </svg>
                 <span>Talent Acquisition Outsourcing</span>
               </div>
               <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="text-cyan-400 w-5 h-5"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M4 7h16"/>
-  <path d="M6 7v10"/>
-  <path d="M10 7v10"/>
-  <path d="M14 7v10"/>
-  <path d="M18 7v10"/>
-  <path d="M4 17h16"/>
-  <path d="M8 3l4 4 4-4"/>
-  <path d="M12 11v6"/>
-
+                  <path d="M4 7h16" />
+                  <path d="M6 7v10" />
+                  <path d="M10 7v10" />
+                  <path d="M14 7v10" />
+                  <path d="M18 7v10" />
+                  <path d="M4 17h16" />
+                  <path d="M8 3l4 4 4-4" />
+                  <path d="M12 11v6" />
                 </svg>
                 <span>Training & Coaching</span>
               </div>
             </div>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
+            <h3 className="text-white text-lg font-semibold mb-4">
               Quick Links
             </h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/" className="hover:text-white transition-colors">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#team" className="hover:text-white transition-colors">
-                  About
+                <a href="/aboutus" className="hover:text-white transition-colors">
+                  About Us
                 </a>
               </li>
               <li>
                 <a
-                  href="#services"
+                  href="/service"
                   className="hover:text-white transition-colors"
                 >
                   Services
@@ -184,7 +186,7 @@ When the right people meet the right opportunities, extraordinary things happen 
               </li>
               <li>
                 <a
-                  href="#impact"
+                  href="/industries"
                   className="hover:text-white transition-colors"
                 >
                   Industries
@@ -192,7 +194,7 @@ When the right people meet the right opportunities, extraordinary things happen 
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/insights"
                   className="hover:text-white transition-colors"
                 >
                   Insights
@@ -200,7 +202,7 @@ When the right people meet the right opportunities, extraordinary things happen 
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/careers"
                   className="hover:text-white transition-colors"
                 >
                   Careers
@@ -208,7 +210,7 @@ When the right people meet the right opportunities, extraordinary things happen 
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/contactus"
                   className="hover:text-white transition-colors"
                 >
                   Contact Us
@@ -217,7 +219,7 @@ When the right people meet the right opportunities, extraordinary things happen 
             </ul>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
+            <h3 className="text-white text-lg font-semibold mb-4">
               Contact Us
             </h3>
             <ul className="space-y-3 text-gray-400">
@@ -225,10 +227,10 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-1"
                   height="1em"
                   width="1em"
@@ -250,10 +252,10 @@ When the right people meet the right opportunities, extraordinary things happen 
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="w-5 h-5 text-cyan-400 flex-shrink-0"
                   height="1em"
                   width="1em"
@@ -263,20 +265,19 @@ When the right people meet the right opportunities, extraordinary things happen 
                 </svg>
                 <a
                   href="tel:+919908122284"
-
                   className="hover:text-white transition-colors"
                 >
-  +91-9908122284
+                  +91-9908122284
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="w-5 h-5 text-cyan-400 flex-shrink-0"
                   height="1em"
                   width="1em"
@@ -298,9 +299,10 @@ When the right people meet the right opportunities, extraordinary things happen 
         <hr className="my-10 border-gray-700" />
         <div className="text-center">
           <p className="text-gray-500 text-sm">
-            © 2026 {" "}
+            © 2026{" "}
             <span className="text-white font-semibold">
-              KimayaHiring Solutions Pvt. Ltd.            </span>
+              KimayaHiring Solutions Pvt. Ltd.{" "}
+            </span>
             — All Rights Reserved.
           </p>
           {/* <p className="text-gray-500 text-sm">

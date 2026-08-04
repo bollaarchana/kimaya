@@ -7,8 +7,8 @@ import logo from "/images/logo-kimaya.png"; // change path
 
 const navLinks = [
   { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Services", path: "/services" },
+  { name: "About", path: "/aboutus" },
+  { name: "Services", path: "/service" },
   { name: "Industries", path: "/industries" },
   { name: "Insights", path: "/insights" },
   { name: "Careers", path: "/careers" },

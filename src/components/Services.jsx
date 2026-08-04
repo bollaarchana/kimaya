@@ -74,59 +74,52 @@ const services = [
 const Service = () => {
   return (
     <>
-      <section className="relative items-center overflow-hidden bg-[#F47C20] pb-5">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
+      <section className="relative items-center overflow-hidden bg-[#F47C20] py-3">
+        <div className="container text-center mb-16 max-w-3xl mx-auto">
+          <h2 className="!mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
             OUR SERVICES
           </h2>
-
-          {/* <div className="w-20 h-1 bg-[#F47C20] rounded-full mx-auto mt-6"></div> */}
-
           <p className="mt-2 text-white font-semibold px-1 text-lg max-w-3xl mx-auto leading-relaxed">
             We provide comprehensive recruitment, staffing, consulting, and
             training solutions to help organizations attract, develop, and
             retain exceptional talent.
           </p>
-        </div>
 
-        <Swiper
-          modules={[Autoplay]}
-          slidesPerView={3}
-          spaceBetween={10}
-           autoplay={{ delay: 3000 }}
-          loop={true}
-          breakpoints={{
-            320: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 4 },
-          }}
-        >
-          {services.map((service, index) => (
-            <SwiperSlide key={index}>
-              <div className="container">
-                <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[360px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#F47C20]">
-                  <div
-                    className={`w-16 h-16 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
-                  >
-                    {service.icon}
+          <Swiper
+            modules={[Autoplay]}
+            slidesPerView={3}
+            spaceBetween={10}
+            autoplay={{ delay: 3000 }}
+            loop={true}
+            breakpoints={{
+              320: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 4 },
+            }}
+          >
+            {services.map((service, index) => (
+              <SwiperSlide key={index}>
+                <div className="">
+                  <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[385px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#F47C20]">
+                    <div
+                      className={`w-16 h-11 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
+                    >
+                      {service.icon}
+                    </div>
+
+                    <h3 className="mt-6 text-2xl font-bold !text-[#2D1663]">
+                      {service.title}
+                    </h3>
+
+                    <p className="mt-4 text-gray-600 leading-7">
+                      {service.description}
+                    </p>
                   </div>
-
-                  <h3 className="mt-6 text-2xl font-bold !text-[#2D1663]">
-                    {service.title}
-                  </h3>
-
-                  <p className="mt-4 text-gray-600 leading-7">
-                    {service.description}
-                  </p>
-
-                  {/* <button className="mt-6 text-[#F47C20] font-semibold hover:text-[#2D1663] transition">
-         Learn More →
-       </button> */}
                 </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </section>
     </>
   );
