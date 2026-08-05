@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 export default function Hero() {
   return (
     
-    <section className="relative overflow-hidden bg-white">
+    <section className="relative overflow-hidden bg-white pt-1 md:pt-0">
 
       {/* Left Pattern */}
       <img
@@ -25,13 +25,13 @@ export default function Hero() {
 
           {/* LEFT */}
 
-          <div className="w-full lg:w-[45%] flex items-center py-12 lg:py-0 z-10">
+          <div className="w-full lg:w-[45%] flex items-center py-0 lg:py-0 z-10">
 
             <div>
 
-              <h1 className="font-bold leading-tight !text-[#2D1663]">
+              <p className="font-bold leading-tight !text-[#2D1663]">
 
-                <span className="block text-[21px] md:text-[30px] xl:text-[41px]">
+                <span className="block text-[21px]">
                   Building
                   <span className="text-[#F47C20]">
                     {" "}Exceptional
@@ -39,14 +39,14 @@ export default function Hero() {
                   {" "}Teams.
                 </span>
 
-                <span className="block mt-2 text-[21px] md:text-[30px] xl:text-[41px]">
+                <span className="block mt-2 text-[21px]">
                   Creating Lasting
                   <span className="text-[#F47C20]">
                     {" "}Partnerships.
                   </span>
                 </span>
 
-              </h1>
+              </p>
               <p className="text-base md:text-xl leading-10 text-[#2D1663] max-w-lg">
                 Strategic Talent Acquisition &
                 <br />

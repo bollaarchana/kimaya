@@ -44,11 +44,11 @@ const services = [
 
 export default function ServicesHome() {
   return (
-    <section className="relative items-center overflow-hidden bg-[#F47C20] pb-4">
+    <section className="relative items-center overflow-hidden bg-[#F47C20] py-4">
       <div className="text-center mb-16 max-w-3xl mx-auto">
-        <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
+          <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
           OUR SERVICES
-        </h2>
+        </h>
         <p className="mt-2 text-white font-semibold px-1 text-lg max-w-3xl mx-auto leading-relaxed">
           We provide comprehensive recruitment, staffing, consulting, and
           training solutions to help organizations attract, develop, and retain
@@ -68,9 +68,9 @@ export default function ServicesHome() {
               {service.icon}
             </div>
 
-            <h3 className="mt-6 text-2xl font-bold text-[#2D1663]">
+            <p className="mt-6 text-lg font-bold text-[#2D1663]">
               {service.title}
-            </h3>
+            </p>
 
             <p className="mt-4 text-gray-600 leading-7">
               {service.description}

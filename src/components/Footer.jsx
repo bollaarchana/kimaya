@@ -4,19 +4,19 @@ const Footer = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-900/10 via-transparent to-black/70 pointer-events-none"></div>
       <div className="relative container mx-auto px-6 md:px-12 z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
-          <div className="flex flex-col md:items-start text-center md:text-left space-y-4">
+          <div className="flex flex-col md:items-start md:text-left space-y-4">
             <img
               alt="Company Logo"
-              className="w-60 h-auto mb-0 drop-shadow-lg"
+              className="w-60 h-auto mx-auto drop-shadow-lg"
               src="/images/logo-kimaya.png"
             />
-            <p className="text-gray-400 leading-relaxed max-w-xs text-left">
+            <p className="text-gray-400 mx-auto text-center leading-relaxed max-w-xs text-left">
               When the right people meet the right opportunities, extraordinary
               things happen{" "}
             </p>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">
+            <h3 className="text-white text-center text-lg font-semibold mb-4">
               Our Services
             </h3>
             <div className="grid grid-cols-1 gap-y-3 text-gray-400">
@@ -162,10 +162,10 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">
+            <h3 className="text-white text-center text-lg font-semibold mb-4">
               Quick Links
             </h3>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 !pl-0 text-gray-400">
               <li>
                 <a href="/" className="hover:text-white transition-colors">
                   Home
@@ -219,7 +219,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">
+            <h3 className="text-white text-center text-lg font-semibold mb-4">
               Contact Us
             </h3>
             <ul className="space-y-3 text-gray-400">

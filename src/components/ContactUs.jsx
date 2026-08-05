@@ -2,34 +2,32 @@ const ContactUs = () => {
   return (
     <main className="flex-grow">
       <div className="bg-gray-50 min-h-screen">
-        <section 
-        className="relative pt-28 pb-12 md:pt-36 md:pb-20 bg-brand-primary overflow-hidden text-center">
-          <div
-            className="absolute inset-0 opacity-10 pointer-events-none"
-            style={{
-    backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-    backgroundSize: "30px 30px"}}
+        <section className="relative overflow-hidden bg-[#081A46] py-24">
+  {/* Plus Pattern */}
+  <div
+    className="absolute inset-0 opacity-30"
+    style={{
+      backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg stroke='%237A8CA8' stroke-width='1'%3E%3Cpath d='M12 9v6M9 12h6'/%3E%3C/g%3E%3C/svg%3E")`,
+      backgroundSize: "20px 20px",
+    }}
+  />
 
-          ></div>
-          <div className="absolute top-0 right-0 w-32 h-32 md:w-[300px] md:h-[300px] bg-brand-secondary/10 rounded-full blur-[60px] md:blur-[100px] pointer-events-none"></div>
-          <div className="absolute bottom-0 left-0 w-32 h-32 md:w-[300px] md:h-[300px] bg-blue-500/10 rounded-full blur-[60px] md:blur-[100px] pointer-events-none"></div>
-          <div className="container mx-auto px-4 md:px-6 relative z-10">
-            <h1
-              className="text-2xl md:text-5xl font-serif font-bold text-black mb-3 md:mb-6 leading-tight"
-              style={{opacity: "1", transform: "none"}}
-            >
-              Get in Touch
-            </h1>
-            <div
-              className="text-blue-800 text-sm md:text-lg max-w-4xl mx-auto leading-relaxed md:leading-relaxed font-light"
-              style={{opacity: "1", transform: "none"}}
-            >
-              Have a query? We are here to help. Reach out to us via phone,
-              WhatsApp, email or visit our office.
-            </div>
-          </div>
-        </section>
-        <section className="py-12 bg-white relative overflow-hidden">
+  {/* Blue Glow */}
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-80 h-80 bg-blue-600/20 blur-[120px] rounded-full" />
+
+  <div className="relative z-10 text-center">
+    <h2 className="text-5xl font-bold text-white">
+      <span className="px-3 py-1">Get In Touch</span> 
+    </h2>
+
+    <p className="mt-6 text-gray-300 max-w-3xl mx-auto">
+      Have a query? We are here to help. Reach out to us via phone,
+      WhatsApp, email or visit our office.
+    </p>
+  </div>
+</section>
+        
+        {/* <section className="py-12 bg-white relative overflow-hidden">
           <div
             className="absolute inset-0 opacity-[0.04]"
             style={{
@@ -39,7 +37,7 @@ const ContactUs = () => {
   }}
           ></div>
           
-        </section>
+        </section> */}
         <section
           className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
           style={{
@@ -382,7 +380,7 @@ const ContactUs = () => {
           </div>
         </section>
         <div
-          className="h-10 w-full opacity-10"
+          className="w-full opacity-10"
           style={{backgroundImage: "radial-gradient(rgb(30, 41, 59) 1px, transparent 1px", backgroundSize: "20px 20px"}}
         ></div>
       </div>

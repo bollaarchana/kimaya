@@ -50,13 +50,13 @@ const industries = [
 const Industries = () => {
   return (
     <>
-      <section className="bg-[#F8F6FD] pt-24">
+      <section className="bg-[#F8F6FD] pt-4">
         <Container fluid="xxl">
           <div className="text-center max-w-4xl mx-auto">
             
-            <h2 className="text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
+          <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
             INDUSTRIES
-          </h2>
+          </h>
             <p className="mt-8 text-lg leading-8 text-gray-600">
               KimayaHiring brings deep domain expertise across a diverse range
               of industries—from high-growth technology startups to regulated
@@ -94,9 +94,9 @@ const Industries = () => {
           </Container>
           <div className="py-20 bg-[#2D1663]">
             <div className="text-center text-white max-w-3xl mx-auto">
-              <h2 className="text-5xl font-bold">
+              <h className="text-2xl font-bold">
                 Let's Build Your Winning Team
-              </h2>
+              </h>
 
               <p className="!my-8 text-lg opacity-90">
                 Looking for industry-specific talent? Partner with KimayaHiring
@@ -104,7 +104,7 @@ const Industries = () => {
               </p>
               <a
                   href="tel:+919908122284"
-              className="bg-[#F47C20] !border-none px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
+              className="bg-[#F47C20] !no-underline px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
                 Request Consultation
                 </a>
 

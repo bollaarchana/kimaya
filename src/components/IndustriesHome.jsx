@@ -20,13 +20,13 @@ const Industries = () => {
           </p>
         </div> */}
 
-      <section className="relative items-center overflow-hidden bg-[#FEF2EF] pb-4">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
+      <section className="relative items-center overflow-hidden bg-[#FEF2EF] py-4">
+        <div className="text-center mb-6 max-w-3xl mx-auto">
+          <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
             INDUSTRIES
-          </h2>
+          </h>
 
-          <h1 className="font-bold leading-tight !text-[#2D1663] mt-2">
+          {/* <h1 className="font-bold leading-tight !text-[#2D1663] mt-2">
 
                 <span className="block text-[21px] md:text-[30px] xl:text-[41px]">
             Industry Expertise That
@@ -38,18 +38,25 @@ const Industries = () => {
 
                 
               </h1>
-          
+           */}
         </div>
 
         <Container fluid="xxl">
           <Row className="">
             <Col lg={6}>
-              <h3 className="text-3xl font-bold !text-[#2D1663] mb-5">
+              <p className="text-xl font-bold !text-[#2D1663] mb-3">
+                <span className="block">
+            Industry Expertise That
+                  <span className="text-[#F47C20]">
+                    {" "}Drives Better Hiring
+                  </span>
+                
+                </span>
                 Specialized Recruitment{" "}
                 <span className="text-[#F47C20]">Across Industries</span>
-              </h3>
+              </p>
 
-              <p className="mt-8 text-lg leading-9 text-gray-600">
+              <p className="mt-8 leading-9 text-gray-600">
                 KimayaHiring brings deep domain expertise across a diverse range
                 of industries — from high-growth technology startups to
                 regulated healthcare and life sciences organizations. Our

@@ -76,9 +76,9 @@ const Service = () => {
     <>
       <section className="relative items-center overflow-hidden bg-[#F47C20] py-3">
         <div className="container text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="!mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
+          <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
             OUR SERVICES
-          </h2>
+          </h>
           <p className="mt-2 text-white font-semibold px-1 text-lg max-w-3xl mx-auto leading-relaxed">
             We provide comprehensive recruitment, staffing, consulting, and
             training solutions to help organizations attract, develop, and
@@ -102,16 +102,16 @@ const Service = () => {
                 <div className="">
                   <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[385px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#F47C20]">
                     <div
-                      className={`w-16 h-11 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
+                      className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
                     >
                       {service.icon}
                     </div>
 
-                    <h3 className="mt-6 text-2xl font-bold !text-[#2D1663]">
+                    <p className="mt-6 text-lg font-bold !text-[#2D1663]">
                       {service.title}
-                    </h3>
+                    </p>
 
-                    <p className="mt-4 text-gray-600 leading-7">
+                    <p className="mt-2 text-gray-600 leading-7">
                       {service.description}
                     </p>
                   </div>

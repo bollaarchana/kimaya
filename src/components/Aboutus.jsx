@@ -1,124 +1,138 @@
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  FaBullseye,
-  FaEye,
-  FaHandshake,
-  FaAward,
-  FaUsers,
-  FaRocket,
-} from "react-icons/fa";
-//import founderImg from "../assets/founder.jpg";
-const cards = [
-  {
-    icon: <FaBullseye />,
-    title: "Our Mission",
-    text: "To connect organizations with exceptional talent while creating meaningful career opportunities.",
-  },
+import { Link } from "react-router-dom";
+import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
+import Cards from './Cards'
+import WhyChooseUs from './WhyChooseUs'
 
-  {
-    icon: <FaEye />,
-    title: "Our Vision",
-    text: "To become one of India's most trusted strategic talent acquisition partners.",
-  },
+import { FaUsers } from "react-icons/fa";
+import { FaBuilding, FaUserCheck, FaSmileBeam } from "react-icons/fa";
 
+
+
+const statistics = [
   {
-    icon: <FaHandshake />,
-    title: "Our Values",
-    text: "Integrity, Partnership, Excellence, Innovation, Trust and Long-term Relationships.",
+    icon: <FaUsers />,
+    number: "18+",
+    title: "Years of Experience",
+    description:
+      "Delivering trusted recruitment and workforce consulting solutions.",
+  },
+  {
+    icon: <FaBuilding />,
+    number: "200+",
+    title: "Clients Served",
+    description:
+      "Partnering with startups, SMEs, and enterprise organizations.",
+  },
+  {
+    icon: <FaUserCheck />,
+    number: "10K+",
+    title: "Successful Placements",
+    description: "Connecting exceptional talent with leading organizations.",
+  },
+  {
+    icon: <FaSmileBeam />,
+    number: "98%",
+    title: "Client Satisfaction",
+    description: "Building long-term partnerships through quality and trust.",
   },
 ];
 
 const Aboutus = () => {
   return (
     <>
-      <section className="relative items-center overflow-hidden bg-[#F8F6FD] py-3">
-        <div className="container text-center mb-2 max-w-3xl mx-auto">
-          <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
-            ABOUT US
-          </h2>
-        </div>
-        <section className="pb-4 bg-[#F8F6FD]">
+      <section className="relative items-center overflow-hidden bg-[#F8F6FD] pt-3">
+            
+            <Cards />
+            <WhyChooseUs />
+
+           
+        
+        
+        <section className="py-20 bg-gradient-to-r from-[#2D1663] to-[#4A2B8C]">
           <Container fluid="xxl">
-            <Row className="align-items-center bg-[#F8F6FD] rounded-4 p-5 p-lg-6 shadow-sm">
-              <Col>
-                <h1 className="font-bold leading-tight !text-[#2D1663]">
-                  <span className="block text-[21px] md:text-[30px] xl:text-[41px]">
-                    Building Strong Teams.
-                  </span>
+            {/* Heading */}
 
-                  <span className="text-[#F47C20] block mt-2 text-[21px] md:text-[30px] xl:text-[41px]">
-                    Creating Lasting Success
-                  </span>
-                </h1>
-                <p className="mt-8 text-lg leading-8 text-gray-600">
-                  Every organization has a vision. Behind every vision are the
-                  people who bring it to life.
-                </p>
+            <div className="text-center text-white mb-16">
+              <span className="uppercase tracking-[4px] text-[#F47C20] font-semibold">
+                Our Achievements
+              </span>
 
-                <p className="mt-2 text-lg leading-8 text-gray-600">
-                  KimayaHiring Solutions was founded on a powerful belief:
-                  <strong className="text-[#2D1663]">
-                    {" "}
-                    the right talent has the power to transform businesses,
-                    careers, and communities.
-                  </strong>
-                </p>
-              </Col>
-              <Col lg={6} className="mt-5 mt-lg-0">
-                <div>
-                  <h1 className="font-bold leading-tight !text-[#2D1663]">
-                    <span className="block text-[21px] md:text-[30px] xl:text-[41px]">
-                      A Message From Our Founder
-                    </span>
-                  </h1>
-                  <p className="text-gray-600 leading-8">
-                    Whether you are a startup building your first engineering
-                    team or an enterprise expanding globally, we become your
-                    trusted talent partner — understanding your culture,
-                    business objectives, and long-term vision to deliver hiring
-                    solutions that create lasting value.
-                  </p>
-                  <div className="flex justify-content-end">
-                    <span className="mt-2 text-lg font-semibold text-[#2D1663]">
-                      Warm Regards,<br />
-                      <span className="text-[#F47C20] font-bold mt-2">
-                      Sindhuja Hattekar<br />
-                    </span>
+              <h2 className="text-4xl lg:text-5xl font-bold mt-3">
+                Numbers That Reflect
+                <span className="text-[#F47C20]"> Our Success</span>
+              </h2>
 
-                    <span className="text-gray-500">
-                      Founder & CEO
-                      <br />
-                      KimayaHiring Solutions Pvt. Ltd.
-                    </span>
-                    </span>
 
-                    
+              <p className="mt-6 text-gray-200 max-w-3xl mx-auto leading-8">
+                Our commitment to excellence and client satisfaction is
+                reflected in the milestones we've achieved over the years.
+              </p>
+            </div>
+
+            {/* Statistics Cards */}
+
+            <Row className="g-4">
+              {statistics.map((item, index) => (
+                <Col lg={3} md={6} key={index}>
+                  <div className="group text-center bg-white/10 backdrop-blur-sm rounded-4 p-5 h-100 border border-white/10 hover:border-[#F47C20] hover:-translate-y-2 transition-all duration-300">
+                    <div className="mx-auto w-20 h-20 rounded-full bg-[#F47C20] text-white flex items-center justify-center text-4xl group-hover:scale-110 transition">
+                      {item.icon}
+                    </div>
+
+                    <h2 className="text-5xl font-bold text-white mt-5">
+                      {item.number}
+                    </h2>
+
+
+                    <h5 className="text-xl font-semibold text-white">
+                      {item.title}
+                    </h5>
+
+                    <p className="text-gray-200 mt-3 leading-7">
+                      {item.description}
+                    </p>
                   </div>
-                </div>
-              </Col>
+                </Col>
+              ))}
             </Row>
           </Container>
         </section>
-        <section className="py-10">
-          <Container fluid="xxl">
-            <div className="text-center mb-5">
-                <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
-            WHO WE ARE
-          </h2>
-            </div>
+        <section className="relative overflow-hidden py-24 bg-gradient-to-r from-[#2D1663] via-[#3B1E75] to-[#2D1663]">
+          {/* Decorative Background */}
+          <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-white/5"></div>
+          <div className="absolute -bottom-28 -right-28 w-96 h-96 rounded-full bg-[#F47C20]/10"></div>
 
-            <p className="text-center mx-auto text-lg leading-9 text-gray-600 max-w-5xl">
-              KimayaHiring Solutions Pvt. Ltd. is a strategic talent acquisition
-              and workforce consulting company committed to helping
-              organizations build high-performing teams. Our expertise spans
-              recruitment, executive search, workforce planning, HR consulting,
-              and corporate learning solutions. We work as an extension of our
-              clients' businesses, ensuring every hiring decision contributes to
-              sustainable organizational growth. Our consultative approach,
-              industry understanding, and commitment to excellence enable us to
-              deliver quality talent solutions with speed, precision, and
-              integrity.
-            </p>
+          <Container fluid="xxl">
+            <div className="relative z-10 max-w-4xl mx-auto text-center">
+              <span className="uppercase tracking-[4px] text-[#F47C20] font-semibold">
+                Let's Work Together
+              </span>
+
+              <h2 className="mt-4 text-4xl lg:text-6xl font-bold text-white leading-tight">
+                Ready to Build Your
+                <span className="text-[#F47C20]"> Winning Team?</span>
+              </h2>
+
+
+              <p className="mt-8 text-lg text-gray-200 leading-8">
+                Whether you're hiring your first employee or scaling a global
+                workforce, KimayaHiring Solutions is here to help you attract,
+                hire, and retain exceptional talent.
+              </p>
+
+              <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <Link
+                  to="/contact"
+                  className="!no-underline inline-flex items-center justify-center gap-3 bg-[#F47C20] text-white px-8 py-4 rounded-xl font-semibold hover:bg-orange-600 transition-all duration-300 hover:shadow-lg"
+                >
+                  Request Consultation
+                  <FaArrowRight />
+                </Link>
+
+               
+              </div>
+            </div>
           </Container>
         </section>
       </section>

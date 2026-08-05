@@ -1,15 +1,18 @@
+import { Suspense } from "react";
+import Loader from "./Loader";
+
 import Hero from "./Hero";
 import ServicesHome from "./ServicesHome";
-import Aboutus from "./Aboutus";
-import IndustriesHome from './IndustriesHome'
+import AboutusHome from "./AboutusHome"
+import IndustriesHome from "./IndustriesHome";
 
 export default function Home() {
   return (
-    <>
+    <Suspense fallback={<Loader />}>
       <Hero />
       <ServicesHome />
-      <Aboutus />
+      <AboutusHome />
       <IndustriesHome />
-    </>
+    </Suspense>
   );
 }

@@ -1,13 +1,18 @@
+import { lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+const Service = lazy(() => import("./components/Services"));
+const AboutUs = lazy(() => import("./components/AboutUs"));
+const Industries = lazy(() => import("./components/Industries"));
+const ContactUs = lazy(() => import("./components/ContactUs"));
+const Insights = lazy(() => import("./components/Insights"));
+
+
 import Layout from "./components/Layout";
 import "./App.css";
 import Home from "./components/Home";
-import AboutUs from "./components/Aboutus";
 import Careers from "./components/Careers";
-import ContactUs from "./components/ContactUs";
-import Industries from "./components/Industries";
-import Insights from "./components/Insights";
-import Service from "./components/Services";
+
 
 function App() {
   return (
