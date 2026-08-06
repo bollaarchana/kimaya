@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa";
-import heroImage from "../assets/hero-webp2.png";
+import heroImage from "../assets/hero-webp.png";
 import pattern from "../assets/bg-pattern.png";
 import curve from "../assets/curve.svg";
 import users from "../assets/users.svg";

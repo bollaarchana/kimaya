@@ -234,7 +234,7 @@ const ContactUs = () => {
                                                                                         md:gap-8 max-w-5xl mx-auto"
               >
                 <a
-                  href=""
+                  href="https://www.instagram.com/kimayahiring?igsh=czZ3eTRqYzJjMmNx"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white/10 backdrop-blur-md rounded-2xl 
@@ -272,7 +272,7 @@ const ContactUs = () => {
                   </span>
                 </a>
                 <a
-                  href=""
+                  href="https://www.facebook.com/people/KimayaHiring/61593091495829/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white/10 backdrop-blur-md 
@@ -303,7 +303,7 @@ const ContactUs = () => {
                   </span>
                 </a>
                 <a
-                  href=""
+                  href="https://www.facebook.com/people/KimayaHiring/61593091495829/"
                   target="_blank"
                   rel="noopener 
                                                                                                     noreferrer"
@@ -337,7 +337,7 @@ const ContactUs = () => {
                   </span>
                 </a>
                 <a
-                  href=""
+                  href="+91-9908122284"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white/10 backdrop-blur-md rounded-2xl md:rounded-3xl p-6 

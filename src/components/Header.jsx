@@ -7,7 +7,7 @@ import logo from "/images/logo-kimaya.png"; // change path
 
 const navLinks = [
   { name: "Home", path: "/" },
-  { name: "Aboutus", path: "/aboutus" },
+  { name: "About Us", path: "/aboutus" },
   { name: "Services", path: "/service" },
   { name: "Industries", path: "/industries" },
   { name: "Insights", path: "/insights" },
@@ -32,7 +32,7 @@ export default function Header() {
           </a>
 
           {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center gap-8 lg:gap-3 xl:gap-10">
+          <nav className="hidden lg:flex items-center gap-8 lg:gap-2 xl:gap-8">
             {navLinks.map((item,i) => (
               <NavLink
               key={i}
@@ -58,7 +58,7 @@ export default function Header() {
             ))}
             <div className="hidden lg:block">
               <a
-                href="https://wa.me/919876543210" // Replace with your WhatsApp number
+                href="https://wa.me/+919908122284" // Replace with your WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-[#25D366] hover:bg-[#1ebe5d] text-white flex items-center justify-center shadow-lg transition duration-300 hover:scale-110"
@@ -118,7 +118,7 @@ export default function Header() {
           ))}
         </div>
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/+919908122284"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-xl hover:scale-110 transition duration-300"
