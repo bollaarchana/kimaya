@@ -22,13 +22,13 @@ const AboutusHome = () => {
                     Creating Lasting Success
                   </span>
                 </p>
-                <p className="mt-8 text-lg leading-8 text-gray-600">
+                <p className="mt-8 text-sm leading-8 text-gray-600">
                   Every organization has a vision. Behind every vision are the
                   people who bring it to life.
                 </p>
 
-                <p className="mt-2 text-lg leading-8 text-gray-600">
-                  KimayaHiring Solutions was founded on a powerful belief:
+                <p className="mt-2 text-sm leading-8 text-gray-600">
+                  Kimaya Hiring Solutions was founded on a powerful belief:
                   <strong className="text-[#2D1663]">
                     {" "}
                     the right talent has the power to transform businesses,
@@ -43,7 +43,7 @@ const AboutusHome = () => {
                       A Message From Our Founder
                     </span>
                   </p>
-                  <p className="text-gray-600 leading-8">
+                <p className="mt-8 text-sm leading-8 text-gray-600">
                     Whether you are a startup building your first engineering
                     team or an enterprise expanding globally, we become your
                     trusted talent partner — understanding your culture,
@@ -51,7 +51,7 @@ const AboutusHome = () => {
                     solutions that create lasting value.
                   </p>
                   <div className="flex justify-content-start">
-                    <span className="mt-2 text-lg font-semibold text-[#2D1663]">
+                    <span className="mt-2 text-sm font-semibold text-[#2D1663]">
                       Warm Regards,
                       <br />
                       <span className="text-[#F47C20] font-bold mt-2">
@@ -61,7 +61,7 @@ const AboutusHome = () => {
                       <span className="text-gray-500">
                         Founder & CEO
                         <br />
-                        KimayaHiring Solutions Pvt. Ltd.
+                        Kimaya Hiring Solutions Pvt. Ltd.
                       </span>
                     </span>
                   </div>
@@ -72,8 +72,8 @@ const AboutusHome = () => {
               WHO WE ARE
             </h>
 
-          <p className="mx-auto text-lg leading-9 text-gray-600 max-w-5xl">
-            KimayaHiring Solutions Pvt. Ltd. is a strategic talent acquisition
+          <p className="mx-auto text-sm leading-8 mt-2 text-gray-600 max-w-5xl">
+            Kimaya Hiring Solutions Pvt. Ltd. is a strategic talent acquisition
             and workforce consulting company committed to helping organizations
             build high-performing teams. Our expertise spans recruitment,
             executive search, workforce planning, HR consulting, and corporate
@@ -91,7 +91,7 @@ const AboutusHome = () => {
         <div className="flex justify-content-end">
           <NavLink
             to={"/aboutus"}
-            className="hover:text-white !no-underline !text-[#2D1663] px-8 py-2 
+            className="hover:text-white !text-[#2D1663] px-8 py-2 
                         flex items-center gap-3 font-semibold"
           >
             Read More

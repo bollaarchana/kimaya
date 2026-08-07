@@ -13,7 +13,7 @@ const Industries = () => {
           </h2>
 
 
-          <p className="mt-2 text-white font-semibold px-1 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
             We provide comprehensive recruitment, staffing, consulting, and
             training solutions to help organizations attract, develop, and
             retain exceptional talent.
@@ -56,8 +56,8 @@ const Industries = () => {
                 <span className="text-[#F47C20]">Across Industries</span>
               </p>
 
-              <p className="mt-8 leading-9 text-gray-600">
-                KimayaHiring brings deep domain expertise across a diverse range
+              <p className="mt-8 leading-9 text-gray-600 text-sm">
+                Kimaya Hiring brings deep domain expertise across a diverse range
                 of industries — from high-growth technology startups to
                 regulated healthcare and life sciences organizations. Our
                 specialized talent networks and industry knowledge enable us to
@@ -75,7 +75,7 @@ const Industries = () => {
           <div className="flex justify-content-end">
           <NavLink
             to={"/industries"}
-            className="hover:text-white !no-underline !text-[#2D1663] px-8 py-2 
+            className="hover:text-white !text-[#2D1663] px-8 py-2 
                         flex items-center gap-3 font-semibold"
           >
             Read More

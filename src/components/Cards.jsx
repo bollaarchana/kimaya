@@ -55,7 +55,7 @@ const Cards = () => {
 
             <span className="text-[#F47C20] text-[21px]">& Values</span>
           </p>
-          <p className="text-gray-600 leading-8 mt-6">
+          <p className="text-gray-600 leading-8 text-sm mt-6">
             Everything we do is driven by our commitment to connecting the right
             talent with the right opportunities while building lasting
             partnerships with our clients.
@@ -82,10 +82,10 @@ const Cards = () => {
                     {card.icon}
                   </div>
 
-                  <h className="text-lg font-bold text-[#2D1663] mt-6">
+                  <h className="text-sm font-bold text-[#2D1663] mt-6">
                     {card.title}
                   </h>
-                  <p className="text-gray-600 leading-8">{card.text}</p>
+                  <p className="text-gray-600 leading-8 text-sm">{card.text}</p>
                 </motion.div>
               </Col>
             ))}

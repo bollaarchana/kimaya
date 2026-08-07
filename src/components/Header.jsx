@@ -40,8 +40,8 @@ export default function Header() {
                 className={({ isActive }) =>
                   `relative pb-2 text-[15px] xl:text-lg font-medium ${
                     isActive
-                      ? "!text-orange-500 !no-underline"
-                      : "!text-gray-700 hover:text-orange-500 !no-underline"
+                      ? "!text-orange-500"
+                      : "!text-gray-700 hover:text-orange-500"
                   }`
                 }
               >
@@ -108,8 +108,8 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
               className={({ isActive }) =>
                 `block py-4 border-b ${
-                  isActive ? "!text-orange-500 font-semibold !no-underline" :
-                   "!text-gray-700 hover:text-orange-500 !no-underline"
+                  isActive ? "!text-orange-500 font-semibold" :
+                   "!text-gray-700 hover:text-orange-500"
                 }`
               }
             >

@@ -64,7 +64,7 @@ const Aboutus = () => {
               </h2>
 
 
-              <p className="mt-6 text-gray-200 max-w-3xl mx-auto leading-8">
+              <p className="mt-6 text-gray-600 text-sm max-w-3xl mx-auto leading-8">
                 Our commitment to excellence and client satisfaction is
                 reflected in the milestones we've achieved over the years.
               </p>
@@ -89,7 +89,7 @@ const Aboutus = () => {
                       {item.title}
                     </h5>
 
-                    <p className="text-gray-200 mt-3 leading-7">
+                    <p className="text-gray-600 text-sm mt-3 leading-8">
                       {item.description}
                     </p>
                   </div>
@@ -115,16 +115,16 @@ const Aboutus = () => {
               </h2>
 
 
-              <p className="mt-8 text-lg text-gray-200 leading-8">
+              <p className="mt-8 text-sm text-gray-600 leading-8">
                 Whether you're hiring your first employee or scaling a global
-                workforce, KimayaHiring Solutions is here to help you attract,
+                workforce, Kimaya Hiring Solutions is here to help you attract,
                 hire, and retain exceptional talent.
               </p>
 
               <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
                 <Link
                   to="/contact"
-                  className="!no-underline inline-flex items-center justify-center gap-3 bg-[#F47C20] text-white px-8 py-4 rounded-xl font-semibold hover:bg-orange-600 transition-all duration-300 hover:shadow-lg"
+                  className="inline-flex items-center justify-center gap-3 bg-[#F47C20] text-white px-8 py-4 rounded-xl font-semibold hover:bg-orange-600 transition-all duration-300 hover:shadow-lg"
                 >
                   Request Consultation
                   <FaArrowRight />

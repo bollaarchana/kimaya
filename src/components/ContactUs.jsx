@@ -16,11 +16,11 @@ const ContactUs = () => {
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-80 h-80 bg-blue-600/20 blur-[120px] rounded-full" />
 
   <div className="relative z-10 text-center">
-    <h2 className="text-5xl font-bold text-white">
+    <h className="text-xl md:text-2xl font-bold text-white">
       <span className="px-3 py-1">Get In Touch</span> 
-    </h2>
+    </h>
 
-    <p className="mt-6 text-gray-300 max-w-3xl mx-auto">
+    <p className="mt-6 text-white max-w-3xl mx-auto leading-8">
       Have a query? We are here to help. Reach out to us via phone,
       WhatsApp, email or visit our office.
     </p>

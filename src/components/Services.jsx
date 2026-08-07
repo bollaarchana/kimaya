@@ -79,7 +79,7 @@ const Service = () => {
           <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
             OUR SERVICES
           </h>
-          <p className="mt-2 text-white font-semibold px-1 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
             We provide comprehensive recruitment, staffing, consulting, and
             training solutions to help organizations attract, develop, and
             retain exceptional talent.
@@ -111,7 +111,7 @@ const Service = () => {
                       {service.title}
                     </p>
 
-                    <p className="mt-2 text-gray-600 leading-7">
+                    <p className="mt-2 text-gray-600 text-sm leading-7">
                       {service.description}
                     </p>
                   </div>
@@ -137,7 +137,7 @@ export default Service;
 
 //   {/* <div className="w-20 h-1 bg-[#F47C20] rounded-full mx-auto mt-6"></div> */}
 
-//   <p className="mt-2 text-white font-semibold px-1 text-lg max-w-3xl mx-auto leading-relaxed">
+//   <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
 //     We provide comprehensive recruitment, staffing, consulting, and training
 //     solutions to help organizations attract, develop, and retain exceptional
 //     talent.

@@ -57,8 +57,8 @@ const Industries = () => {
           <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
             INDUSTRIES
           </h>
-            <p className="mt-8 text-lg leading-8 text-gray-600">
-              KimayaHiring brings deep domain expertise across a diverse range
+            <p className="mt-8 text-sm leading-8 text-gray-600">
+              Kimaya Hiring brings deep domain expertise across a diverse range
               of industries—from high-growth technology startups to regulated
               healthcare, finance, manufacturing, education, and Global
               Capability Centers.
@@ -71,13 +71,13 @@ const Industries = () => {
                 className="rounded-3xl border-2 p-10 bg-white transition hover:shadow-xl"
                 style={{ borderColor: item.color }}
               >
-                <h3 className="text-3xl font-bold text-[#2D1663] mb-8">
+                <h className="text-lg font-bold text-[#2D1663] mb-8">
                   {item.title}
-                </h3>
+                </h>
 
                 <ul className="space-y-5">
                   {item.items.map((x, i) => (
-                    <li key={i} className="flex items-center gap-3 text-lg">
+                    <li key={i} className="flex items-center gap-3 text-sm">
                       <div
                         className="w-3 h-3 rounded-full"
                         style={{ background: item.color }}
@@ -98,13 +98,13 @@ const Industries = () => {
                 Let's Build Your Winning Team
               </h>
 
-              <p className="!my-8 text-lg opacity-90">
-                Looking for industry-specific talent? Partner with KimayaHiring
+              <p className="!my-8 text-sm opacity-90 leading-8">
+                Looking for industry-specific talent? Partner with Kimaya Hiring
                 to find professionals who make an immediate impact.
               </p>
               <a
                   href="tel:+919908122284"
-              className="bg-[#F47C20] !no-underline px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
+              className="bg-[#F47C20] px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
                 Request Consultation
                 </a>
 

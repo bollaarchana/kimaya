@@ -70,12 +70,12 @@ const WhyChooseUs = () => {
           <p className="font-bold leading-tight !text-[#2D1663] mt-2">
             <span className="text-[21px]">Why Partner With </span>
 
-            <span className="text-[#F47C20] text-[21px]">KimayaHiring?</span>
+            <span className="text-[#F47C20] text-[21px]">Kimaya Hiring?</span>
           </p>
-          <p className="text-gray-600 leading-8 mt-6">
+          <p className="text-gray-600 leading-8 mt-6 text-sm">
             We combine industry expertise, strategic recruitment, and a
-            consultative approach to help organizations build exceptional
-            teams that drive long-term business success.
+            consultative approach to help organizations build exceptional teams
+            that drive long-term business success.
           </p>
         </div>
         <motion.div
@@ -104,15 +104,14 @@ const WhyChooseUs = () => {
                     </div>
 
                     <div className="ms-4 mt-6">
-                  <h className="text-lg font-bold text-[#2D1663]">
+                      <h className="text-lg font-bold text-[#2D1663]">
                         {item.title}
                       </h>
 
-                      <p className="text-gray-600 mt-3 leading-7">
+                      <p className="text-gray-600 mt-3 leading-8 text-sm">
                         {item.description}
                       </p>
-
-                                          </div>
+                    </div>
                   </div>
                 </motion.div>
               </Col>

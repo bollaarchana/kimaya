@@ -49,7 +49,7 @@ export default function ServicesHome() {
           <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
           OUR SERVICES
         </h>
-        <p className="mt-2 text-white font-semibold px-1 text-lg max-w-3xl mx-auto leading-relaxed">
+        <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
           We provide comprehensive recruitment, staffing, consulting, and
           training solutions to help organizations attract, develop, and retain
           exceptional talent.
@@ -72,7 +72,7 @@ export default function ServicesHome() {
               {service.title}
             </p>
 
-            <p className="mt-4 text-gray-600 leading-7">
+            <p className="mt-4 text-gray-600 leading-8 text-sm">
               {service.description}
             </p>
           </div>
@@ -81,7 +81,7 @@ export default function ServicesHome() {
       <div className="container flex justify-content-end">
         <NavLink
           to={"/service"}
-          className="hover:text-white !no-underline !text-[#2D1663] px-8 py-2 
+          className="hover:text-white !text-[#2D1663] px-8 py-2 
                         flex items-center gap-3 font-semibold"
         >
           Read More
