@@ -3,30 +3,30 @@ const ContactUs = () => {
     <main className="flex-grow">
       <div className="bg-gray-50 min-h-screen">
         <section className="relative overflow-hidden bg-[#081A46] py-24">
-  {/* Plus Pattern */}
-  <div
-    className="absolute inset-0 opacity-30"
-    style={{
-      backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg stroke='%237A8CA8' stroke-width='1'%3E%3Cpath d='M12 9v6M9 12h6'/%3E%3C/g%3E%3C/svg%3E")`,
-      backgroundSize: "20px 20px",
-    }}
-  />
+          {/* Plus Pattern */}
+          <div
+            className="absolute inset-0 opacity-30"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg stroke='%237A8CA8' stroke-width='1'%3E%3Cpath d='M12 9v6M9 12h6'/%3E%3C/g%3E%3C/svg%3E")`,
+              backgroundSize: "20px 20px",
+            }}
+          />
 
-  {/* Blue Glow */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-80 h-80 bg-blue-600/20 blur-[120px] rounded-full" />
+          {/* Blue Glow */}
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-80 h-80 bg-blue-600/20 blur-[120px] rounded-full" />
 
-  <div className="relative z-10 text-center">
-    <h className="text-xl md:text-2xl font-bold text-white">
-      <span className="px-3 py-1">Get In Touch</span> 
-    </h>
+          <div className="relative z-10 text-center">
+            <h className="text-xl md:text-2xl font-bold text-white">
+              <span className="px-3 py-1">Get In Touch</span>
+            </h>
 
-    <p className="mt-6 text-white max-w-3xl mx-auto leading-8">
-      Have a query? We are here to help. Reach out to us via phone,
-      WhatsApp, email or visit our office.
-    </p>
-  </div>
-</section>
-        
+            <p className="mt-6 text-white max-w-3xl mx-auto leading-8">
+              Have a query? We are here to help. Reach out to us via phone,
+              WhatsApp, email or visit our office.
+            </p>
+          </div>
+        </section>
+
         {/* <section className="py-12 bg-white relative overflow-hidden">
           <div
             className="absolute inset-0 opacity-[0.04]"
@@ -41,44 +41,45 @@ const ContactUs = () => {
         <section
           className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
           style={{
-    backgroundImage: 'url("/assets/contact-bg-BUzSl1Dv.avif")',
-    backgroundColor: "rgb(10, 17, 40)",
-  }}
+            backgroundImage: 'url("/assets/contact-bg-BUzSl1Dv.avif")',
+            backgroundColor: "rgb(10, 17, 40)",
+          }}
         >
           <div className="absolute inset-0 bg-gradient-to-br from-black/90 via-black/80 to-black/90"></div>
           <div className="container mx-auto px-6 max-w-7xl relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-16">
               <a
                 href="tel:+919908122284"
-                className="flex items-center md:items-start gap-4 
-                                          group bg-white/5 p-5 rounded-2xl border border-white/5 md:bg-transparent 
+                className="flex justify-center
+                                          group bg-white/5 p-2 rounded-2xl border border-white/5 md:bg-transparent 
                                           md:border-none md:p-0 transition-all duration-300 hover:bg-white/10"
                 target="_self"
                 rel="noreferrer"
               >
-                <div
-                  className="flex-shrink-0 w-8 h-8 rounded-full border border-white/20 
+                <div className="flex flex-col justify-center items-center">
+                  <div
+                    className="flex-shrink-0 w-8 h-8 rounded-full border border-white/20 
                                             flex items-center justify-center text-white group-hover:bg-brand-secondary 
                                             group-hover:text-brand-primary group-hover:border-brand-secondary 
                                             transition-all duration-300 shadow-lg"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-phone"
-                    aria-hidden="true"
                   >
-                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
-                  </svg>
-                </div>
-                <div className="flex flex-col">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-phone"
+                      aria-hidden="true"
+                    >
+                      <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                    </svg>
+                  </div>
+
                   <span className="text-[10px] uppercase tracking-[0.15em] text-brand-secondary font-bold mb-1">
                     Call / WhatsApp
                   </span>
@@ -92,75 +93,77 @@ const ContactUs = () => {
               </a>
               <a
                 href=""
-                className="flex items-center md:items-start 
-                                                      gap-4 group bg-white/5 p-5 rounded-2xl border border-white/5 md:bg-transparent md:border-none md:p-0 
-                                                      transition-all duration-300 hover:bg-white/10"
+                className="flex justify-center
+                                          group bg-white/5 p-2 rounded-2xl border border-white/5 md:bg-transparent 
+                                          md:border-none md:p-0 transition-all duration-300 hover:bg-white/10"
                 target="_self"
                 rel="noreferrer"
               >
-                <div
-                  className="flex-shrink-0 w-8 h-8 rounded-full border border-white/20 flex items-center 
+                <div className="flex flex-col justify-center items-center">
+                  <div
+                    className="flex-shrink-0 w-8 h-8 rounded-full border border-white/20 flex items-center 
                                                         justify-center text-white group-hover:bg-brand-secondary group-hover:text-brand-primary 
                                                         group-hover:border-brand-secondary transition-all duration-300 shadow-lg"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-mail"
-                    aria-hidden="true"
                   >
-                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
-                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                  </svg>
-                </div>
-                <div className="flex flex-col">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-mail"
+                      aria-hidden="true"
+                    >
+                      <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    </svg>
+                  </div>
                   <span className="text-[10px] uppercase tracking-[0.15em] text-brand-secondary font-bold mb-1">
                     Email Support
                   </span>
                   <h6 className="text-[12px] md:text-lg font-bold text-white leading-tight mb-0.5">
                     kimayahiring@gmail.com
                   </h6>
-                  <p className="text-gray-400 text-xs font-medium">Fast Response</p>
+                  <p className="text-gray-400 text-xs font-medium">
+                    Fast Response
+                  </p>
                 </div>
               </a>
               <a
                 href=""
-                className="flex items-center md:items-start gap-4 group bg-white/5 p-5 rounded-2xl 
-                                                                  border border-white/5 md:bg-transparent md:border-none md:p-0 transition-all 
-                                                                  duration-300 hover:bg-white/10"
+                className="flex justify-center
+                                          group bg-white/5 p-2 rounded-2xl border border-white/5 md:bg-transparent 
+                                          md:border-none md:p-0 transition-all duration-300 hover:bg-white/10"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div
-                  className="flex-shrink-0 w-8 h-8 rounded-full border border-white/20 flex items-center 
+                <div className="flex flex-col justify-center items-center">
+                  <div
+                    className="flex-shrink-0 w-8 h-8 rounded-full border border-white/20 flex items-center 
                                                                     justify-center text-white group-hover:bg-brand-secondary group-hover:text-brand-primary 
                                                                     group-hover:border-brand-secondary transition-all duration-300 shadow-lg"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-map-pin"
-                    aria-hidden="true"
                   >
-                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-                    <circle cx="12" cy="10" r="3"></circle>
-                  </svg>
-                </div>
-                <div className="flex flex-col">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-map-pin"
+                      aria-hidden="true"
+                    >
+                      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
                   <span className="text-[10px] uppercase tracking-[0.15em] text-brand-secondary font-bold mb-1">
                     Visit Office
                   </span>
@@ -381,7 +384,11 @@ const ContactUs = () => {
         </section>
         <div
           className="w-full opacity-10"
-          style={{backgroundImage: "radial-gradient(rgb(30, 41, 59) 1px, transparent 1px", backgroundSize: "20px 20px"}}
+          style={{
+            backgroundImage:
+              "radial-gradient(rgb(30, 41, 59) 1px, transparent 1px",
+            backgroundSize: "20px 20px",
+          }}
         ></div>
       </div>
     </main>

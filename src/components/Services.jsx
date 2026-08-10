@@ -26,7 +26,7 @@ const services = [
     title: "Executive Search",
     description:
       "Identify and recruit experienced leaders and senior executives who drive business growth and strategic transformation.",
-    color: "text-[#F47C20]",
+    color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
   {
@@ -42,7 +42,7 @@ const services = [
     title: "HR Consulting",
     description:
       "Strategic HR consulting services covering workforce planning, employee engagement, performance management, and compliance.",
-    color: "text-[#F47C20]",
+    color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
   {
@@ -58,7 +58,7 @@ const services = [
     title: "Talent Acquisition Outsourcing",
     description:
       "End-to-end recruitment process outsourcing to streamline hiring, reduce recruitment costs, and improve hiring quality.",
-    color: "text-[#F47C20]",
+    color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
   {
@@ -74,7 +74,7 @@ const services = [
 const Service = () => {
   return (
     <>
-      <section className="relative items-center overflow-hidden bg-[#F47C20] py-3">
+      <section className="relative items-center overflow-hidden bg-orange-500 py-3">
         <div className="container text-center mb-16 max-w-3xl mx-auto">
           <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
             OUR SERVICES
@@ -100,7 +100,7 @@ const Service = () => {
             {services.map((service, index) => (
               <SwiperSlide key={index}>
                 <div className="">
-                  <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[385px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#F47C20]">
+                  <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[385px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500">
                     <div
                       className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
                     >
@@ -129,13 +129,13 @@ export default Service;
 
 // const Service = () => {
 //   return (
-//     <section className="relative items-center overflow-hidden bg-[#F47C20]">
+//     <section className="relative items-center overflow-hidden bg-orange-500">
 // <div className="text-center mb-16 max-w-3xl mx-auto">
 //   <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
 //      OUR SERVICES
 //   </h2>
 
-//   {/* <div className="w-20 h-1 bg-[#F47C20] rounded-full mx-auto mt-6"></div> */}
+//   {/* <div className="w-20 h-1 bg-orange-500 rounded-full mx-auto mt-6"></div> */}
 
 //   <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
 //     We provide comprehensive recruitment, staffing, consulting, and training
@@ -148,7 +148,7 @@ export default Service;
 //   {services.map((service, index) => (
 //     <div
 //       key={index}
-//       className="relative flex flex-col justify-start items-center text-center h-full min-h-[360px] group rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#F47C20]"
+//       className="relative flex flex-col justify-start items-center text-center h-full min-h-[360px] group rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500"
 //     >
 //       <div
 //         className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
@@ -164,7 +164,7 @@ export default Service;
 //         {service.description}
 //       </p>
 
-//       {/* <button className="mt-6 text-[#F47C20] font-semibold hover:text-[#2D1663] transition">
+//       {/* <button className="mt-6 text-orange-500 font-semibold hover:text-[#2D1663] transition">
 //         Learn More →
 //       </button> */}
 //     </div>

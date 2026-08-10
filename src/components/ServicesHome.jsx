@@ -21,7 +21,7 @@ const services = [
     title: "Executive Search",
     description:
       "Identify and recruit experienced leaders and senior executives who drive business growth and strategic transformation.",
-    color: "text-[#F47C20]",
+    color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
   {
@@ -37,14 +37,14 @@ const services = [
     title: "HR Consulting",
     description:
       "Strategic HR consulting services covering workforce planning, employee engagement, performance management, and compliance.",
-    color: "text-[#F47C20]",
+    color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
 ];
 
 export default function ServicesHome() {
   return (
-    <section className="relative items-center overflow-hidden bg-[#F47C20] py-4">
+    <section className="relative items-center overflow-hidden bg-orange-500 py-4">
       <div className="text-center mb-16 max-w-3xl mx-auto">
           <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
           OUR SERVICES
@@ -60,7 +60,7 @@ export default function ServicesHome() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="relative flex flex-col justify-start items-center text-center h-full min-h-[340px] group rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#F47C20]"
+            className="relative flex flex-col justify-start items-center text-center h-full min-h-[340px] group rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500"
           >
             <div
               className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}

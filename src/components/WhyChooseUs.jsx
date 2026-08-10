@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
           <p className="font-bold leading-tight !text-[#2D1663] mt-2">
             <span className="text-[21px]">Why Partner With </span>
 
-            <span className="text-[#F47C20] text-[21px]">Kimaya Hiring?</span>
+            <span className="text-orange-500 text-[21px]">Kimaya Hiring?</span>
           </p>
           <p className="text-gray-600 leading-8 mt-6 text-sm">
             We combine industry expertise, strategic recruitment, and a
@@ -90,14 +90,14 @@ const WhyChooseUs = () => {
                 <motion.div
                   variants={cardVariants}
                   whileHover={{ y: -8, scale: 1.01 }}
-                  className="group h-100 bg-[#F8F6FD] rounded-4 p-5 border border-transparent hover:border-[#F47C20] hover:shadow-xl transition-all duration-300"
+                  className="group h-100 bg-[#F8F6FD] rounded-4 p-5 border border-transparent hover:border-orange-500 hover:shadow-xl transition-all duration-300"
                 >
                   <div className="flex flex-col justify-center items-center text-center">
                     <div className="flex-shrink-0">
                       <motion.div
                         whileHover={{ rotate: 6, scale: 1.08 }}
                         transition={{ type: "spring", stiffness: 300 }}
-                        className="w-16 h-16 rounded-full bg-[#2D1663] text-white flex items-center justify-center text-2xl group-hover:bg-[#F47C20] transition-colors duration-300"
+                        className="w-16 h-16 rounded-full bg-[#2D1663] text-white flex items-center justify-center text-2xl group-hover:bg-orange-500 transition-colors duration-300"
                       >
                         {item.icon}
                       </motion.div>

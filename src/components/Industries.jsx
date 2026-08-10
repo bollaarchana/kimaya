@@ -77,7 +77,7 @@ const Industries = () => {
 
                 <ul className="space-y-5">
                   {item.items.map((x, i) => (
-                    <li key={i} className="flex items-center gap-3 text-sm">
+                    <li key={i} className="flex items-center mt-4 gap-3 text-sm">
                       <div
                         className="w-3 h-3 rounded-full"
                         style={{ background: item.color }}
@@ -104,12 +104,12 @@ const Industries = () => {
               </p>
               <a
                   href="tel:+919908122284"
-              className="bg-[#F47C20] px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
+              className="bg-orange-500 px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
                 Request Consultation
                 </a>
 
               {/* <button 
-              className="mt-10 bg-[#F47C20] px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
+              className="mt-10 bg-orange-500 px-10 py-4 rounded-xl text-white font-semibold hover:bg-orange-600 transition">
                 
                 Request Consultation
               </button> */}

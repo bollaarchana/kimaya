@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Industries = () => {
   return (
     <>
-      {/* <section className="relative items-center overflow-hidden bg-[#F47C20] pb-4">
+      {/* <section className="relative items-center overflow-hidden bg-orange-500 pb-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
             OUR SERVICES
@@ -30,7 +30,7 @@ const Industries = () => {
 
                 <span className="block text-[21px] md:text-[30px] xl:text-[41px]">
             Industry Expertise That
-                  <span className="text-[#F47C20]">
+                  <span className="text-orange-500">
                     {" "}Drives Better Hiring
                   </span>
                 
@@ -47,13 +47,13 @@ const Industries = () => {
               <p className="text-xl font-bold !text-[#2D1663] mb-3">
                 <span className="block">
             Industry Expertise That
-                  <span className="text-[#F47C20]">
+                  <span className="text-orange-500">
                     {" "}Drives Better Hiring
                   </span>
                 
                 </span>
                 Specialized Recruitment{" "}
-                <span className="text-[#F47C20]">Across Industries</span>
+                <span className="text-orange-500">Across Industries</span>
               </p>
 
               <p className="mt-8 leading-9 text-gray-600 text-sm">

@@ -5,13 +5,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* .navbar .nav-link.active {
-    color: #f97316 !important;
-        text-decoration: none !important;
 
-}*/
 
 a {
     text-decoration: none !important;
+}
+
+ol, ul{
+  padding-left: 0% !important;
 }
  

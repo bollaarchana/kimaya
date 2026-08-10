@@ -13,13 +13,13 @@ const cards = [
     icon: <FaEye />,
     title: "Our Vision",
     text: "To become one of India's most trusted strategic talent acquisition partners by delivering innovative hiring solutions that empower businesses and professionals.",
-    color: "from-[#F47C20] to-[#FF9B4A]",
+    color: "from-orange-500 to-[#FF9B4A]",
   },
   {
     icon: <FaHandshake />,
     title: "Our Values",
     text: "Integrity, Partnership, Excellence, Innovation, Trust, and Long-term Relationships guide every decision we make and every client we serve.",
-    color: "from-[#2D1663] to-[#F47C20]",
+    color: "from-[#2D1663] to-orange-500",
   },
 ];
 
@@ -53,7 +53,7 @@ const Cards = () => {
           <p className="font-bold leading-tight !text-[#2D1663] mt-2">
             <span className="text-[21px]">Mission, Vision</span>
 
-            <span className="text-[#F47C20] text-[21px]">& Values</span>
+            <span className="text-orange-500 text-[21px]">& Values</span>
           </p>
           <p className="text-gray-600 leading-8 text-sm mt-6">
             Everything we do is driven by our commitment to connecting the right

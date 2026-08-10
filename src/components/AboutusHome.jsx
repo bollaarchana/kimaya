@@ -18,7 +18,7 @@ const AboutusHome = () => {
                     Building Strong Teams.
                   </span>
 
-                  <span className="text-[#F47C20] block mt-2 text-[21px]">
+                  <span className="text-orange-500 block mt-2 text-[21px]">
                     Creating Lasting Success
                   </span>
                 </p>
@@ -38,7 +38,7 @@ const AboutusHome = () => {
               </Col>
               <Col lg={6} className="mt-5 mt-lg-0">
                 <div>
-                  <p className="font-bold leading-tight !text-[#F47C20]">
+                  <p className="font-bold leading-tight text-orange-500">
                     <span className="block text-[21px]">
                       A Message From Our Founder
                     </span>
@@ -54,7 +54,7 @@ const AboutusHome = () => {
                     <span className="mt-2 text-sm font-semibold text-[#2D1663]">
                       Warm Regards,
                       <br />
-                      <span className="text-[#F47C20] font-bold mt-2">
+                      <span className="text-orange-500 font-bold mt-2">
                         Sindhuja Hattekar
                         <br />
                       </span>

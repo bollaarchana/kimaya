@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 const Footer = () => {
   return (
     <>
@@ -325,9 +326,9 @@ const Footer = () => {
               <img
                 alt="Company Logo"
                 class="w-58 h-auto mb-2 drop-shadow-lg bg-white"
-                src="/images/logo-kimaya.png"
+                src="../../public/images/kimaya.logo.jpeg"
               />
-              <p class="text-gray-400 leading-relaxed max-w-xs">
+              <p class="text-gray-400 leading-relaxed max-w-xs text-sm">
                 When the right people meet the right opportunities,
                 extraordinary things happen
               </p>
@@ -336,7 +337,7 @@ const Footer = () => {
               <h3 class="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
                 Our Services
               </h3>
-               <div className="grid grid-cols-1 gap-y-3 text-gray-400">
+               <div className="grid grid-cols-1 gap-y-3 text-gray-400 text-sm">
                 <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
                   <svg
                     stroke="currentColor"
@@ -482,53 +483,53 @@ const Footer = () => {
               <h3 class="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
                 Quick Links
               </h3>
-              <ul class="space-y-2 text-gray-400">
+              <ul class="space-y-2 text-gray-400 text-sm">
                 <li>
-                  <a href="#" class="hover:text-white transition-colors">
+                  <Link to={"/"} className="hover:text-white transition-colors">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#service"
-                    class="hover:text-white transition-colors"
+                  <Link
+                    to="/service"
+                    className="hover:text-white transition-colors"
                   >
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#aboutus" class="hover:text-white transition-colors">
+                  <Link to={"/aboutus"} className="hover:text-white transition-colors">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#industries" class="hover:text-white transition-colors">
+                  <Link to={"/industries"} className="hover:text-white transition-colors">
                     Industries
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#insights" class="hover:text-white transition-colors">
+                  <Link to={"/insights"} className="hover:text-white transition-colors">
                     Insights
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#careers" class="hover:text-white transition-colors">
+                  <Link to={"/careers"} className="hover:text-white transition-colors">
                     Careers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#contact" class="hover:text-white transition-colors">
+                  <Link to={"/contact"} className="hover:text-white transition-colors">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 class="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
+              <h3 className="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
                 Contact Us
               </h3>
-              <ul class="space-y-3 text-gray-400">
-                <li class="flex items-start gap-3">
+              <ul className="space-y-3 text-gray-400 text-sm">
+                <li className="flex items-start gap-2">
                   <svg
                     stroke="currentColor"
                     fill="none"
@@ -536,7 +537,7 @@ const Footer = () => {
                     viewBox="0 0 24 24"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="w-5 h-5 text-cyan-400 flex-shrink-0 mt-1"
+                    className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-1"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -548,12 +549,12 @@ const Footer = () => {
                     href="https://maps.app.goo.gl/y3DVVA3qanMPHVr59"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="hover:text-white transition-colors"
+                    className="hover:text-white transition-colors"
                   >
                     Hyderabad, Telangana, India
                   </a>
                 </li>
-                <li class="flex items-center gap-3">
+                <li className="flex items-center gap-2">
                   <svg
                     stroke="currentColor"
                     fill="none"
@@ -561,7 +562,7 @@ const Footer = () => {
                     viewBox="0 0 24 24"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="w-5 h-5 text-cyan-400 flex-shrink-0"
+                    className="w-5 h-5 text-cyan-400 flex-shrink-0"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -570,12 +571,12 @@ const Footer = () => {
                   </svg>
                   <a
                     href="tel:+919908122284"
-                    class="hover:text-white transition-colors"
+                    className="hover:text-white transition-colors"
                   >
                     +91-9908122284
                   </a>
                 </li>
-                <li class="flex items-center gap-3">
+                <li className="flex items-center gap-2">
                   <svg
                     stroke="currentColor"
                     fill="none"
@@ -583,7 +584,7 @@ const Footer = () => {
                     viewBox="0 0 24 24"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="w-5 h-5 text-cyan-400 flex-shrink-0"
+                    className="w-5 h-5 text-cyan-400 flex-shrink-0"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -593,7 +594,7 @@ const Footer = () => {
                   </svg>
                   <a
                     href="mailto:contact@vedaitech.com"
-                    class="hover:text-white transition-colors"
+                    className="hover:text-white transition-colors"
                   >
                     www.kimayahiring.com
                   </a>
@@ -601,21 +602,21 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <hr class="my-10 border-gray-700" />
-          <div class="flex flex-col md:flex-row justify-center items-center text-center md:text-left gap-4">
-            <p class="text-gray-500 text-sm">
+          <hr className="my-10 border-gray-700" />
+          <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left gap-4">
+            <p className="text-gray-500 text-sm">
               © 2026{" "}
-              <span class="text-white font-semibold">Kimaya Hiring Solutions Pvt. Ltd.
+              <span className="text-white font-semibold">Kimaya Hiring Solutions Pvt. Ltd.
 </span>{" "}
               — All Rights Reserved.
             </p>
-            {/* <p class="text-gray-500 text-sm">
+            {/* <p className="text-gray-500 text-sm">
               Designed &amp; Developed by{" "}
               <a
                 href="https://www.linkedin.com/in/vineeth-madishetti-4a7285150/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-cyan-400 font-semibold hover:text-cyan-300 underline transition-colors"
+                className="text-cyan-400 font-semibold hover:text-cyan-300 underline transition-colors"
               >
                 Vineeth Madishetti
               </a>

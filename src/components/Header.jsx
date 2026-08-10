@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
-import logo from "/images/logo-kimaya.png"; // change path
+import logo from "../../public/images/kimaya.logo.jpeg"; // change path
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -27,7 +27,7 @@ export default function Header() {
             <img
               src={logo}
               alt="Logo"
-              className="h-40 w-auto object-contain md:h-60 lg:h-79"
+              className="h-24 w-auto object-contain"
             />
           </a>
 
