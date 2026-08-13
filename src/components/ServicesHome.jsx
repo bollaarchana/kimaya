@@ -46,7 +46,7 @@ export default function ServicesHome() {
   return (
     <section className="relative items-center overflow-hidden bg-orange-500 py-4">
       <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
+          <h className="mt-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">
           OUR SERVICES
         </h>
         <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
@@ -68,11 +68,11 @@ export default function ServicesHome() {
               {service.icon}
             </div>
 
-            <p className="mt-6 text-lg font-bold text-[#2D1663]">
+            <p className="mt-2 text-lg font-bold text-[#2D1663]">
               {service.title}
             </p>
 
-            <p className="mt-4 text-gray-600 leading-8 text-sm">
+            <p className="mt-0 text-gray-600 leading-8 text-sm">
               {service.description}
             </p>
           </div>

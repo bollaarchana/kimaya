@@ -1,4 +1,6 @@
 import {Link} from "react-router-dom"
+import logo from "../../public/images/kimaya.logo.jpeg"; // change path
+
 const Footer = () => {
   return (
     <>
@@ -326,7 +328,7 @@ const Footer = () => {
               <img
                 alt="Company Logo"
                 class="w-58 h-auto mb-2 drop-shadow-lg bg-white"
-                src="../../public/images/kimaya.logo.jpeg"
+                src={logo}
               />
               <p class="text-gray-400 leading-relaxed max-w-xs text-sm">
                 When the right people meet the right opportunities,

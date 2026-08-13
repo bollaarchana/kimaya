@@ -18,18 +18,18 @@ export default function Hero() {
       />
 
       <Container fluid="xxl">
-        <div className="relative flex flex-col lg:flex-row min-h-[580px]">
+        <div className="relative flex flex-col lg:flex-row min-h-[410px]">
           {/* LEFT */}
 
-          <div className="w-full lg:w-[55%] flex items-center py-0 lg:py-0 z-10">
+          <div className="w-full lg:w-[55%] flex pt-3">
             <div>
-              <p className="font-bold leading-tight !text-[#2D1663]">
-                <span className="block text-[21px]">
+              <p className="leading-tight !text-[#2D1663] text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight mb-6">
+                <span className="block">
                   Building
                   <span className="text-orange-500"> Exceptional</span> Teams.
                 </span>
 
-                <span className="block mt-2 text-[21px]">
+                <span className="block mt-2">
                   Creating Lasting
                   <span className="text-orange-500"> Partnerships.</span>
                 </span>
@@ -95,7 +95,7 @@ export default function Hero() {
             <img
               src={heroImage}
               alt="heroImage"
-              className="w-full h-full object-contain"
+              className="w-full object-contain"
             />
 
             {/* White Fade */}

@@ -176,24 +176,25 @@ const ContactUs = () => {
                 </div>
               </a>
             </div>
-            {/* <div className="mb-20 md:mb-24">
+             <div className="mb-20 md:mb-24">
               <div
                 className="bg-white rounded-3xl md:rounded-[2.5rem] shadow-2xl overflow-hidden border 
                                                                                 border-white/30"
               >
                 <div className="w-full h-[400px] md:h-[450px]">
                   <iframe
-                    title="Office Location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
-                                                                                  1d15225.90693636656!2d78.357567!3d17.4425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f1
-                                                                                  3.1!3m3!1m2!1s0x3bcb93dc8c5d69df%3A0x19688eb5c550c0!2sGachibowli%2C%20
-                                                                                  Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-                    width="100%"
+                    
+    src="https://www.google.com/maps?q=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081&output=embed"
+                              width="100%"
                     height="100%"
                     allowFullScreen=""
                     loading="lazy"
                     className="w-full h-full object-cover"
                     style={{border: "0px"}}
+                    
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Kimaya Hiring Solutions Pvt Ltd Office Location"
+
                   ></iframe>
                 </div>
                 <div
@@ -213,7 +214,7 @@ const ContactUs = () => {
                     </p>
                   </div>
                   <a
-                    href="https://maps.app.goo.gl/g74W6BfGBTvtEprT6?g_st=awb"
+  href="https://www.google.com/maps/dir/?api=1&destination=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081"
                     target="_blank"
                     rel="noreferrer"
                     className="px-6 py-2 bg-brand-light text-brand-primary font-bold rounded-lg 
@@ -223,7 +224,7 @@ const ContactUs = () => {
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div> 
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-4">
                 Join Our Community

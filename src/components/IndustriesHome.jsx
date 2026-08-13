@@ -22,40 +22,28 @@ const Industries = () => {
 
       <section className="relative items-center overflow-hidden bg-[#FEF2EF] py-4">
         <div className="text-center mb-6 max-w-3xl mx-auto">
-          <h className="mt-4 text-xl lg:text-2xl font-bold tracking-tight text-[#2D1663]">
+          <h className="mt-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">
             INDUSTRIES
           </h>
 
-          {/* <h1 className="font-bold leading-tight !text-[#2D1663] mt-2">
-
-                <span className="block text-[21px] md:text-[30px] xl:text-[41px]">
-            Industry Expertise That
-                  <span className="text-orange-500">
-                    {" "}Drives Better Hiring
-                  </span>
-                
-                </span>
-
-                
-              </h1>
-           */}
-        </div>
+          </div>
 
         <Container fluid="xxl">
           <Row className="">
             <Col lg={6}>
-              <p className="text-xl font-bold !text-[#2D1663] mb-3">
+            <p className="mt-3 leading-tight text-[#2D1663] text-3xl lg:text-3xl font-extrabold text-primary-text tracking-tight mb-6">
                 <span className="block">
             Industry Expertise That
-                  <span className="text-orange-500">
-                    {" "}Drives Better Hiring
-                  </span>
-                
+                  <span className="text-orange-500">{" "}Drives Better Hiring
+</span>
                 </span>
-                Specialized Recruitment{" "}
-                <span className="text-orange-500">Across Industries</span>
-              </p>
 
+                <span className="block mt-2">
+                Specialized Recruitment{" "}
+                  <span className="text-orange-500"> Across Industries.</span>
+                </span>
+              </p>
+             
               <p className="mt-8 leading-9 text-gray-600 text-sm">
                 Kimaya Hiring brings deep domain expertise across a diverse range
                 of industries — from high-growth technology startups to

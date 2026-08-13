@@ -89,7 +89,7 @@ const Service = () => {
             modules={[Autoplay]}
             slidesPerView={3}
             spaceBetween={10}
-            autoplay={{ delay: 3000 }}
+            //autoplay={{ delay: 3000 }}
             loop={true}
             breakpoints={{
               320: { slidesPerView: 1 },
@@ -99,7 +99,7 @@ const Service = () => {
           >
             {services.map((service, index) => (
               <SwiperSlide key={index}>
-                <div className="">
+                <div className="mt-2">
                   <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[385px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500">
                     <div
                       className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
