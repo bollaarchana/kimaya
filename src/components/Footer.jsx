@@ -548,7 +548,7 @@ const Footer = () => {
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
                   <a
-                    href="https://maps.app.goo.gl/y3DVVA3qanMPHVr59"
+  href="https://www.google.com/maps/dir/?api=1&destination=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"

@@ -89,7 +89,7 @@ const Service = () => {
             modules={[Autoplay]}
             slidesPerView={3}
             spaceBetween={10}
-            //autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 3000 }}
             loop={true}
             breakpoints={{
               320: { slidesPerView: 1 },
