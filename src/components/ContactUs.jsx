@@ -80,13 +80,13 @@ const ContactUs = () => {
                     </svg>
                   </div>
 
-                  <span className="text-[10px] uppercase tracking-[0.15em] text-brand-secondary font-bold mb-1">
+                  <span className="text-[10px] uppercase tracking-[0.15em] text-orange-500 font-bold my-1">
                     Call / WhatsApp
                   </span>
                   <h6 className="text-[12px] md:text-lg font-bold text-white leading-tight mb-0.5">
                     +91 9908122284
                   </h6>
-                  <p className="text-gray-400 text-xs font-medium">
+                  <p className="text-orange-500 text-xs font-medium">
                     Mon–Sat · 9am to 6pm
                   </p>
                 </div>
@@ -122,13 +122,13 @@ const ContactUs = () => {
                       <rect x="2" y="4" width="20" height="16" rx="2"></rect>
                     </svg>
                   </div>
-                  <span className="text-[10px] uppercase tracking-[0.15em] text-brand-secondary font-bold mb-1">
+                  <span className="text-[10px] uppercase tracking-[0.15em] text-orange-500 font-bold my-1">
                     Email Support
                   </span>
                   <h6 className="text-[12px] md:text-lg font-bold text-white leading-tight mb-0.5">
-                    kimayahiring@gmail.com
+Hr@kimayahiring.com
                   </h6>
-                  <p className="text-gray-400 text-xs font-medium">
+                  <p className="text-orange-500 text-xs font-medium">
                     Fast Response
                   </p>
                 </div>
@@ -164,13 +164,13 @@ const ContactUs = () => {
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
                   </div>
-                  <span className="text-[10px] uppercase tracking-[0.15em] text-brand-secondary font-bold mb-1">
+                  <span className="text-[10px] uppercase tracking-[0.15em] text-orange-500 font-bold my-1">
                     Visit Office
                   </span>
                   <h6 className="text-[12px] md:text-lg font-bold text-white leading-tight mb-0.5">
-                    Uppal, Hyderabad
+Madhapur, Hyderabad
                   </h6>
-                  <p className="text-gray-400 text-xs font-medium">
+                  <p className="text-orange-500 text-xs font-medium">
                     Telangana, India
                   </p>
                 </div>

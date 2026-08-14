@@ -9,9 +9,9 @@ const navLinks = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/aboutus" },
   { name: "Services", path: "/service" },
-  { name: "Industries", path: "/industries" },
-  { name: "Insights", path: "/insights" },
-  { name: "Careers", path: "/careers" },
+  // { name: "Industries", path: "/industries" },
+  // { name: "Insights", path: "/insights" },
+  // { name: "Careers", path: "/careers" },
   { name: "Contact Us", path: "/contact" },
 ];
 export default function Header() {
@@ -32,7 +32,7 @@ export default function Header() {
           </a>
 
           {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center gap-8 lg:gap-2 xl:gap-8">
+          <nav className="hidden lg:flex items-center gap-8 xl:gap-8">
             {navLinks.map((item,i) => (
               <NavLink
               key={i}

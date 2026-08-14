@@ -394,7 +394,7 @@ const Footer = () => {
                   <span>Contract Staffing</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
-                  <svg
+                  {/* <svg
                     stroke="currentColor"
                     fill="none"
                     strokeWidth="2"
@@ -408,8 +408,18 @@ const Footer = () => {
                   >
                     <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
                     <polyline points="17 6 23 6 23 12"></polyline>
-                  </svg>
-                  <span>HR Consulting</span>
+                  </svg> */}
+                  <svg xmlns="http://www.w3.org/2000/svg" 
+                  stroke="currentColor"
+                    fill="none"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-cyan-400 w-5 h-5"
+                    
+                  width="1em" height="1em" viewBox="0 0 512 512">
+                    <title xmlns="">frappe-hr-dark</title><path d="M365.7 0H146.3C65.5 0 0 65.5 0 146.3v219.4C0 446.5 65.5 512 146.3 512h219.4c80.8 0 146.3-65.5 146.3-146.3V146.3C512 65.5 446.5 0 365.7 0m-200 193.8h36.6v23c0 20.1 16.5 36.6 36.6 36.6h34c20.1 0 36.6-16.5 36.6-36.6v-34c0-20.1-16.5-36.6-36.6-36.6H165.7v-36.6h107.2c40.4 0 73.1 32.7 73.1 73.1v34c0 40.4-32.7 73.1-73.1 73.1h-34c-40.4 0-73.1-32.7-73.1-73.1v-22.9zm190.7 208.5c-27.8-25.2-63.5-39.1-100.6-39.1s-72.9 13.9-100.7 39l.1.1h-.2l.1-.1l-24.6-27c34.6-31.3 79-48.6 125.3-48.6s90.9 17.2 125.3 48.6z"/></svg><span>HR Consulting</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
                   <svg

@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import industryMap from "../assets/industries.png";
+import industryMap from "../assets/industries1.png";
 import { NavLink } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -20,7 +20,7 @@ const Industries = () => {
           </p>
         </div> */}
 
-      <section className="relative items-center overflow-hidden bg-[#FEF2EF] py-4">
+      <section className="relative items-center overflow-hidden bg-[#FEF2EF] pt-4">
         <div className="text-center mb-6 max-w-3xl mx-auto">
           <h className="mt-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">
             INDUSTRIES
@@ -29,7 +29,7 @@ const Industries = () => {
           </div>
 
         <Container fluid="xxl">
-          <Row className="">
+          <Row>
             <Col lg={6}>
             <p className="mt-3 leading-tight text-[#2D1663] text-3xl lg:text-3xl font-extrabold text-primary-text tracking-tight mb-6">
                 <span className="block">
@@ -57,10 +57,8 @@ const Industries = () => {
             </Col>
 
             <Col lg={6}>
-              <img src={industryMap} className="img-fluid" />
-            </Col>
-          </Row>
-          <div className="flex justify-content-end">
+              <img src={industryMap} className="w-auto h-3/4" />
+              <div className="flex justify-content-end mt-3">
           <NavLink
             to={"/industries"}
             className="hover:text-white !text-[#2D1663] px-8 py-2 
@@ -70,6 +68,9 @@ const Industries = () => {
             <FaArrowRight />
           </NavLink>
         </div>
+            </Col>
+          </Row>
+          
         </Container>
         
       </section>
