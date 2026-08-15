@@ -91,8 +91,11 @@ const ContactUs = () => {
                   </p>
                 </div>
               </a>
+
               <a
-                href=""
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=hr@kimayahiring.com&su=Job%20Enquiry"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex justify-center
                                           group bg-white/5 p-2 rounded-2xl border border-white/5 md:bg-transparent 
                                           md:border-none md:p-0 transition-all duration-300 hover:bg-white/10"
@@ -126,7 +129,7 @@ const ContactUs = () => {
                     Email Support
                   </span>
                   <h6 className="text-[12px] md:text-lg font-bold text-white leading-tight mb-0.5">
-                    Hr@kimayahiring.com
+                    hr@kimayahiring.com
                   </h6>
                   <p className="text-orange-500 text-xs font-medium">
                     Fast Response
