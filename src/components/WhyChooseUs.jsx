@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
             <span className="text-orange-500 text-[21px]">Kimaya Hiring?</span>
           </p>
           <p className="text-gray-600 leading-8 mt-6 text-sm">
-            We combine industry expertise, strategic recruitment, and a
+            We combine industry expertise, strategic recruitment and a
             consultative approach to help organizations build exceptional teams
             that drive long-term business success.
           </p>

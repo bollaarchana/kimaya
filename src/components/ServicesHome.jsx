@@ -12,7 +12,7 @@ const services = [
     icon: <FaLaptopCode />,
     title: "IT Recruitment",
     description:
-      "Find highly skilled IT professionals across software development, cloud, AI, cybersecurity, DevOps, and emerging technologies.",
+      "Find highly skilled IT professionals across software development, cloud, AI, cybersecurity, DevOps and emerging technologies.",
     color: "text-[#2D1663]",
     bg: "bg-[#F5F1FD]",
   },
@@ -36,7 +36,7 @@ const services = [
     icon: <FaHandshake />,
     title: "HR Consulting",
     description:
-      "Strategic HR consulting services covering workforce planning, employee engagement, performance management, and compliance.",
+      "Strategic HR consulting services covering workforce planning, employee engagement, performance management and compliance.",
     color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
@@ -50,8 +50,8 @@ export default function ServicesHome() {
           OUR SERVICES
         </h>
         <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
-          We provide comprehensive recruitment, staffing, consulting, and
-          training solutions to help organizations attract, develop, and retain
+          We provide comprehensive recruitment, staffing, consulting and
+          training solutions to help organizations attract, develop and retain
           exceptional talent.
         </p>
       </div>

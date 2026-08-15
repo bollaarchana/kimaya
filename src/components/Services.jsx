@@ -80,8 +80,8 @@ const Service = () => {
             OUR SERVICES
           </h>
           <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
-            We provide comprehensive recruitment, staffing, consulting, and
-            training solutions to help organizations attract, develop, and
+            We provide comprehensive recruitment, staffing, consulting and
+            training solutions to help organizations attract, develop and
             retain exceptional talent.
           </p>
 
@@ -138,8 +138,8 @@ export default Service;
 //   {/* <div className="w-20 h-1 bg-orange-500 rounded-full mx-auto mt-6"></div> */}
 
 //   <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
-//     We provide comprehensive recruitment, staffing, consulting, and training
-//     solutions to help organizations attract, develop, and retain exceptional
+//     We provide comprehensive recruitment, staffing, consulting and training
+//     solutions to help organizations attract, develop and retain exceptional
 //     talent.
 //   </p>
 // </div>

@@ -14,8 +14,8 @@ const Industries = () => {
 
 
           <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
-            We provide comprehensive recruitment, staffing, consulting, and
-            training solutions to help organizations attract, develop, and
+            We provide comprehensive recruitment, staffing, consulting and
+            training solutions to help organizations attract, develop and
             retain exceptional talent.
           </p>
         </div> */}

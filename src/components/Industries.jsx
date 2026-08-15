@@ -15,7 +15,7 @@ const features = [
   {
     title: "Quality Candidates",
     description:
-      "Professionals who match your technical, cultural, and business needs.",
+      "Professionals who match your technical, cultural and business needs.",
   },
   {
     title: "Global Reach",
@@ -60,7 +60,7 @@ const Industries = () => {
             <p className="mt-8 text-sm leading-8 text-gray-600">
               Kimaya Hiring brings deep domain expertise across a diverse range
               of industries—from high-growth technology startups to regulated
-              healthcare, finance, manufacturing, education, and Global
+              healthcare, finance, manufacturing, education and Global
               Capability Centers.
             </p>
           </div>

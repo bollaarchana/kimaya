@@ -525,20 +525,21 @@ const handleHomeClick = (e) => {
                     Home
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    to="/service"
-                    className="hover:text-white transition-colors"
-                  >
-                    Services
-                  </Link>
-                </li>
+                
                 <li>
                   <Link
                     to={"/aboutus"}
                     className="hover:text-white transition-colors"
                   >
                     About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/service"
+                    className="hover:text-white transition-colors"
+                  >
+                    Services
                   </Link>
                 </li>
                 <li>

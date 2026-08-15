@@ -22,7 +22,7 @@ const statistics = [
     number: "200+",
     title: "Clients Served",
     description:
-      "Partnering with startups, SMEs, and enterprise organizations."
+      "Partnering with startups, SMEs and enterprise organizations."
   },
   {
     icon: <FaUserCheck />,
@@ -118,7 +118,7 @@ const Aboutus = () => {
               <p className="mt-8 text-sm text-white leading-8">
                 Whether you're hiring your first employee or scaling a global
                 workforce, Kimaya Hiring Solutions is here to help you attract,
-                hire, and retain exceptional talent.
+                hire and retain exceptional talent.
               </p>
 
               <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">

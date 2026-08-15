@@ -32,7 +32,7 @@
 //                   <strong className="text-[#2D1663]">
 //                     {" "}
 //                     the right talent has the power to transform businesses,
-//                     careers, and communities.
+//                     careers and communities.
 //                   </strong>
 //                 </p>
 //               </Col>
@@ -47,7 +47,7 @@
 //                     Whether you are a startup building your first engineering
 //                     team or an enterprise expanding globally, we become your
 //                     trusted talent partner — understanding your culture,
-//                     business objectives, and long-term vision to deliver hiring
+//                     business objectives and long-term vision to deliver hiring
 //                     solutions that create lasting value.
 //                   </p>
 //                   <div className="flex justify-content-start">
@@ -76,12 +76,12 @@
 //             Kimaya Hiring Solutions Pvt. Ltd. is a strategic talent acquisition
 //             and workforce consulting company committed to helping organizations
 //             build high-performing teams. Our expertise spans recruitment,
-//             executive search, workforce planning, HR consulting, and corporate
+//             executive search, workforce planning, HR consulting and corporate
 //             learning solutions. We work as an extension of our clients'
 //             businesses, ensuring every hiring decision contributes to
 //             sustainable organizational growth. Our consultative approach,
-//             industry understanding, and commitment to excellence enable us to
-//             deliver quality talent solutions with speed, precision, and
+//             industry understanding and commitment to excellence enable us to
+//             deliver quality talent solutions with speed, precision and
 //             integrity.
 //           </p>
 //                         </div>
@@ -194,7 +194,7 @@ const AboutusHome = () => {
                 Kimaya Hiring Solutions was founded on a powerful belief:
                 <strong className="text-[#2D1663]">
                   {" "}the right talent has the power to transform businesses,
-                  careers, and communities.
+                  careers and communities.
                 </strong>
               </p>
 
@@ -209,7 +209,7 @@ const AboutusHome = () => {
                   Whether you are a startup building your first engineering
                   team or an enterprise expanding globally, we become your
                   trusted talent partner — understanding your culture,
-                  business objectives, and long-term vision to deliver hiring
+                  business objectives and long-term vision to deliver hiring
                   solutions that create lasting value.
                 </p>
 
@@ -280,16 +280,16 @@ const AboutusHome = () => {
                   acquisition and workforce consulting company committed to
                   helping organizations build high-performing teams. Our
                   expertise spans recruitment, executive search, workforce
-                  planning, HR consulting, and corporate learning solutions.
+                  planning, HR consulting and corporate learning solutions.
                   We work as an extension of our clients' businesses, ensuring
                   every hiring decision contributes to sustainable
                   organizational growth.
                 </p>
 
           <p className="mx-auto text-sm leading-8 mt-2 text-gray-600 max-w-5xl">
-                  Our consultative approach, industry understanding, and
+                  Our consultative approach, industry understanding and
                   commitment to excellence enable us to deliver quality talent
-                  solutions with speed, precision, and integrity.
+                  solutions with speed, precision and integrity.
                 </p>
 
               </div>

@@ -6,7 +6,7 @@ const cards = [
   {
     icon: <FaBullseye />,
     title: "Our Mission",
-    text: "To connect organizations with exceptional talent while creating meaningful career opportunities through strategic recruitment, workforce consulting, and long-term partnerships.",
+    text: "To connect organizations with exceptional talent while creating meaningful career opportunities through strategic recruitment, workforce consulting and long-term partnerships.",
     color: "from-[#2D1663] to-[#4A2B8C]",
   },
   {
@@ -18,7 +18,7 @@ const cards = [
   {
     icon: <FaHandshake />,
     title: "Our Values",
-    text: "Integrity, Partnership, Excellence, Innovation, Trust, and Long-term Relationships guide every decision we make and every client we serve.",
+    text: "Integrity, Partnership, Excellence, Innovation, Trust and Long-term Relationships guide every decision we make and every client we serve.",
     color: "from-[#2D1663] to-orange-500",
   },
 ];
