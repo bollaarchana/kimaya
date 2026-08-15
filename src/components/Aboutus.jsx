@@ -15,26 +15,26 @@ const statistics = [
     number: "18+",
     title: "Years of Experience",
     description:
-      "Delivering trusted recruitment and workforce consulting solutions.",
+      "Delivering trusted recruitment and workforce consulting solutions."
   },
   {
     icon: <FaBuilding />,
     number: "200+",
     title: "Clients Served",
     description:
-      "Partnering with startups, SMEs, and enterprise organizations.",
+      "Partnering with startups, SMEs, and enterprise organizations."
   },
   {
     icon: <FaUserCheck />,
     number: "10K+",
     title: "Successful Placements",
-    description: "Connecting exceptional talent with leading organizations.",
+    description: "Connecting exceptional talent with leading organizations."
   },
   {
     icon: <FaSmileBeam />,
     number: "98%",
     title: "Client Satisfaction",
-    description: "Building long-term partnerships through quality and trust.",
+    description: "Building long-term partnerships through quality and trust."
   },
 ];
 
@@ -74,13 +74,13 @@ const Aboutus = () => {
 
             <Row className="g-4">
               {statistics.map((item, index) => (
-                <Col lg={3} md={6} key={index}>
-                  <div className="group text-center bg-white/10 backdrop-blur-sm rounded-4 p-5 h-100 border border-white/10 hover:border-orange-500 hover:-translate-y-2 transition-all duration-300">
+                <Col md={3} lg={3} key={index}>
+                  <div className="group text-center bg-white/10 backdrop-blur-sm rounded-4 p-3 h-100 border border-white/10 hover:border-orange-500 hover:-translate-y-2 transition-all duration-300">
                     <div className="mx-auto w-20 h-20 rounded-full bg-orange-500 text-white flex items-center justify-center text-4xl group-hover:scale-110 transition">
                       {item.icon}
                     </div>
 
-                    <h2 className="text-5xl font-bold text-white mt-5">
+                    <h2 className="text-5xl font-bold text-white mt-3">
                       {item.number}
                     </h2>
 
@@ -89,9 +89,9 @@ const Aboutus = () => {
                       {item.title}
                     </h5>
 
-                    <p className="text-orange-500 text-sm mt-3 leading-8">
+                    {/* <p className="text-orange-500 text-sm mt-3 leading-8">
                       {item.description}
-                    </p>
+                    </p> */}
                   </div>
                 </Col>
               ))}

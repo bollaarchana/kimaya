@@ -53,7 +53,7 @@ const Cards = () => {
           <p className="font-bold leading-tight !text-[#2D1663] mt-2">
             <span className="text-[21px]">Mission, Vision</span>
 
-            <span className="text-orange-500 text-[21px]">& Values</span>
+            <span className="text-orange-500 text-[21px]"> & Values</span>
           </p>
           <p className="text-gray-600 leading-8 text-sm mt-6">
             Everything we do is driven by our commitment to connecting the right
@@ -70,11 +70,11 @@ const Cards = () => {
         >
           <Row className="g-4">
             {cards.map((card, index) => (
-              <Col lg={4} md={6} sm={12} key={index}>
+              <Col md={4} sm={12} key={index}>
                 <motion.div
                   variants={cardVariants}
                   whileHover={{ y: -10, scale: 1.02 }}
-                  className="flex flex-col group items-center text-center bg-white rounded-4 p-5 h-100 border border-gray-200 shadow-sm hover:shadow-2xl transition-all duration-500"
+                  className="flex flex-col group items-center text-center bg-white rounded-4 p-3 h-100 border border-gray-200 shadow-sm hover:shadow-2xl transition-all duration-500"
                 >
                   <div
                     className={`w-20 h-20 mb-4 rounded-full bg-gradient-to-r ${card.color} flex items-center justify-center text-white text-3xl shadow-lg group-hover:scale-110 transition-transform duration-300`}
@@ -82,7 +82,7 @@ const Cards = () => {
                     {card.icon}
                   </div>
 
-                  <h className="text-sm font-bold text-[#2D1663] mt-6">
+                  <h className="text-sm font-bold text-[#2D1663] mt-1">
                     {card.title}
                   </h>
                   <p className="text-gray-600 leading-8 text-sm">{card.text}</p>

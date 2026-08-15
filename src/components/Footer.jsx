@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import logo from "../../public/images/kimaya.logo.jpeg"; // change path
 
 const Footer = () => {
@@ -339,7 +339,7 @@ const Footer = () => {
               <h3 class="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
                 Our Services
               </h3>
-               <div className="grid grid-cols-1 gap-y-3 text-gray-400 text-sm">
+              <div className="grid grid-cols-1 gap-y-3 text-gray-400 text-sm">
                 <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
                   <svg
                     stroke="currentColor"
@@ -408,18 +408,23 @@ const Footer = () => {
                   >
                     <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
                     <polyline points="17 6 23 6 23 12"></polyline>
-                  </svg> */}
-                  <svg xmlns="http://www.w3.org/2000/svg" 
-                  stroke="currentColor"
+                  </svg>  */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="currentColor"
                     fill="none"
                     strokeWidth="2"
-                    viewBox="0 0 24 24"
+                    viewBox="0 0 20 20"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className="text-cyan-400 w-5 h-5"
-                    
-                  width="1em" height="1em" viewBox="0 0 512 512">
-                    <title xmlns="">frappe-hr-dark</title><path d="M365.7 0H146.3C65.5 0 0 65.5 0 146.3v219.4C0 446.5 65.5 512 146.3 512h219.4c80.8 0 146.3-65.5 146.3-146.3V146.3C512 65.5 446.5 0 365.7 0m-200 193.8h36.6v23c0 20.1 16.5 36.6 36.6 36.6h34c20.1 0 36.6-16.5 36.6-36.6v-34c0-20.1-16.5-36.6-36.6-36.6H165.7v-36.6h107.2c40.4 0 73.1 32.7 73.1 73.1v34c0 40.4-32.7 73.1-73.1 73.1h-34c-40.4 0-73.1-32.7-73.1-73.1v-22.9zm190.7 208.5c-27.8-25.2-63.5-39.1-100.6-39.1s-72.9 13.9-100.7 39l.1.1h-.2l.1-.1l-24.6-27c34.6-31.3 79-48.6 125.3-48.6s90.9 17.2 125.3 48.6z"/></svg><span>HR Consulting</span>
+                    height="1em"
+                    width="1em"
+                  >
+                    <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                    <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1z" />
+                  </svg>
+                  <span>HR Consulting</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
                   <svg
@@ -438,6 +443,7 @@ const Footer = () => {
                     <polyline points="2 17 12 22 22 17"></polyline>
                     <polyline points="2 12 12 17 22 12"></polyline>
                   </svg>
+
                   <span>Corporate Training</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
@@ -510,16 +516,22 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/aboutus"} className="hover:text-white transition-colors">
+                  <Link
+                    to={"/aboutus"}
+                    className="hover:text-white transition-colors"
+                  >
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/industries"} className="hover:text-white transition-colors">
+                  <Link
+                    to={"/industries"}
+                    className="hover:text-white transition-colors"
+                  >
                     Industries
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to={"/insights"} className="hover:text-white transition-colors">
                     Insights
                   </Link>
@@ -528,9 +540,12 @@ const Footer = () => {
                   <Link to={"/careers"} className="hover:text-white transition-colors">
                     Careers
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link to={"/contact"} className="hover:text-white transition-colors">
+                  <Link
+                    to={"/contact"}
+                    className="hover:text-white transition-colors"
+                  >
                     Contact Us
                   </Link>
                 </li>
@@ -558,7 +573,7 @@ const Footer = () => {
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
                   <a
-  href="https://www.google.com/maps/dir/?api=1&destination=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"
@@ -618,8 +633,9 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left gap-4">
             <p className="text-gray-500 text-sm">
               © 2026{" "}
-              <span className="text-white font-semibold">Kimaya Hiring Solutions Pvt. Ltd.
-</span>{" "}
+              <span className="text-white font-semibold">
+                Kimaya Hiring Solutions Pvt. Ltd.
+              </span>{" "}
               — All Rights Reserved.
             </p>
             {/* <p className="text-gray-500 text-sm">
@@ -636,7 +652,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      
     </>
   );
 };

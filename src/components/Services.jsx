@@ -17,7 +17,7 @@ const services = [
     icon: <FaLaptopCode />,
     title: "IT Recruitment",
     description:
-      "Find highly skilled IT professionals across software development, cloud, AI, cybersecurity, DevOps, and emerging technologies.",
+      "Find highly skilled IT professionals across software development, cloud, AI, cybersecurity, DevOps and emerging technologies.",
     color: "text-[#2D1663]",
     bg: "bg-[#F5F1FD]",
   },
@@ -41,7 +41,7 @@ const services = [
     icon: <FaHandshake />,
     title: "HR Consulting",
     description:
-      "Strategic HR consulting services covering workforce planning, employee engagement, performance management, and compliance.",
+      "Strategic HR consulting services covering workforce planning, employee engagement, performance management and compliance.",
     color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
@@ -49,7 +49,7 @@ const services = [
     icon: <FaGraduationCap />,
     title: "Corporate Training",
     description:
-      "Customized learning and development programs to improve employee skills, leadership capabilities, and organizational performance.",
+      "Customized learning and development programs to improve employee skills, leadership capabilities and organizational performance.",
     color: "text-[#2D1663]",
     bg: "bg-[#F5F1FD]",
   },
@@ -57,7 +57,7 @@ const services = [
     icon: <FaUserFriends />,
     title: "Talent Acquisition Outsourcing",
     description:
-      "End-to-end recruitment process outsourcing to streamline hiring, reduce recruitment costs, and improve hiring quality.",
+      "End-to-end recruitment process outsourcing to streamline hiring, reduce recruitment costs and improve hiring quality.",
     color: "text-orange-500",
     bg: "bg-[#FFF5EE]",
   },
@@ -65,7 +65,7 @@ const services = [
     icon: <FaChalkboardTeacher />,
     title: "Training & Coaching",
     description:
-      "Professional coaching and practical training programs that enhance leadership, communication, productivity, and career growth.",
+      "Professional coaching and practical training programs that enhance leadership, communication, productivity and career growth.",
     color: "text-[#2D1663]",
     bg: "bg-[#F5F1FD]",
   },
@@ -100,18 +100,18 @@ const Service = () => {
             {services.map((service, index) => (
               <SwiperSlide key={index}>
                 <div className="mt-2">
-                  <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[385px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500">
+                  <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[340px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500">
                     <div
                       className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
                     >
                       {service.icon}
                     </div>
 
-                    <p className="mt-6 text-lg font-bold !text-[#2D1663]">
+                    <p className="mt-1 text-lg font-bold !text-[#2D1663]">
                       {service.title}
                     </p>
 
-                    <p className="mt-2 text-gray-600 text-sm leading-7">
+                    <p className="mt-1 text-gray-600 text-sm leading-7">
                       {service.description}
                     </p>
                   </div>

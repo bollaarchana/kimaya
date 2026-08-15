@@ -58,24 +58,24 @@ export default function ServicesHome() {
 
       <div className="container pb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
-          <div
-            key={index}
-            className="relative flex flex-col justify-start items-center text-center h-full min-h-[340px] group rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500"
-          >
-            <div
-              className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
-            >
-              {service.icon}
-            </div>
+          
+          <div className="mt-2" key={index}>
+                  <div className="relative flex flex-col justify-start items-center text-center h-full min-h-[340px] group rounded-2xl border border-gray-200 bg-white p-3 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500">
+                    <div
+                      className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
+                    >
+                      {service.icon}
+                    </div>
 
-            <p className="mt-2 text-lg font-bold text-[#2D1663]">
-              {service.title}
-            </p>
+                    <p className="mt-1 text-lg font-bold !text-[#2D1663]">
+                      {service.title}
+                    </p>
 
-            <p className="mt-0 text-gray-600 leading-8 text-sm">
-              {service.description}
-            </p>
-          </div>
+                    <p className="mt-1 text-gray-600 text-sm leading-7">
+                      {service.description}
+                    </p>
+                  </div>
+                </div>
         ))}
       </div>
       <div className="container flex justify-content-end">

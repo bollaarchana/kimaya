@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const Service = lazy(() => import("./components/Services"));
 const AboutUs = lazy(() => import("./components/AboutUs"));
-const Industries = lazy(() => import("./components/Industries"));
+const IndustriesHome = lazy(() => import("./components/IndustriesHome"));
 const ContactUs = lazy(() => import("./components/ContactUs"));
 const Insights = lazy(() => import("./components/Insights"));
 
@@ -23,7 +23,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/industries" element={<Industries />} />
+          <Route path="/industries" element={<IndustriesHome />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/service" element={<Service />} />
         </Routes>

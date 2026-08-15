@@ -126,7 +126,7 @@ const ContactUs = () => {
                     Email Support
                   </span>
                   <h6 className="text-[12px] md:text-lg font-bold text-white leading-tight mb-0.5">
-Hr@kimayahiring.com
+                    Hr@kimayahiring.com
                   </h6>
                   <p className="text-orange-500 text-xs font-medium">
                     Fast Response
@@ -134,7 +134,7 @@ Hr@kimayahiring.com
                 </div>
               </a>
               <a
-                href=""
+                href="https://www.google.com/maps?q=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081&output=embed"
                 className="flex justify-center
                                           group bg-white/5 p-2 rounded-2xl border border-white/5 md:bg-transparent 
                                           md:border-none md:p-0 transition-all duration-300 hover:bg-white/10"
@@ -168,7 +168,7 @@ Hr@kimayahiring.com
                     Visit Office
                   </span>
                   <h6 className="text-[12px] md:text-lg font-bold text-white leading-tight mb-0.5">
-Madhapur, Hyderabad
+                    Madhapur, Hyderabad
                   </h6>
                   <p className="text-orange-500 text-xs font-medium">
                     Telangana, India
@@ -176,25 +176,22 @@ Madhapur, Hyderabad
                 </div>
               </a>
             </div>
-             <div className="mb-20 md:mb-24">
+            <div className="mb-20 md:mb-24">
               <div
                 className="bg-white rounded-3xl md:rounded-[2.5rem] shadow-2xl overflow-hidden border 
                                                                                 border-white/30"
               >
                 <div className="w-full h-[400px] md:h-[450px]">
                   <iframe
-                    
-    src="https://www.google.com/maps?q=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081&output=embed"
-                              width="100%"
+                    src="https://www.google.com/maps?q=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081&output=embed"
+                    width="100%"
                     height="100%"
                     allowFullScreen=""
                     loading="lazy"
                     className="w-full h-full object-cover"
-                    style={{border: "0px"}}
-                    
-    referrerPolicy="no-referrer-when-downgrade"
-    title="Kimaya Hiring Solutions Pvt Ltd Office Location"
-
+                    style={{ border: "0px" }}
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Kimaya Hiring Solutions Pvt Ltd Office Location"
                   ></iframe>
                 </div>
                 <div
@@ -214,7 +211,7 @@ Madhapur, Hyderabad
                     </p>
                   </div>
                   <a
-  href="https://www.google.com/maps/dir/?api=1&destination=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081"
                     target="_blank"
                     rel="noreferrer"
                     className="px-6 py-2 bg-brand-light text-brand-primary font-bold rounded-lg 
@@ -224,7 +221,7 @@ Madhapur, Hyderabad
                   </a>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-4">
                 Join Our Community
@@ -341,7 +338,7 @@ Madhapur, Hyderabad
                   </span>
                 </a>
                 <a
-                  href="+91-9908122284"
+                  href="https://api.whatsapp.com/send/?phone=919908122284&text&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white/10 backdrop-blur-md rounded-2xl md:rounded-3xl p-6 

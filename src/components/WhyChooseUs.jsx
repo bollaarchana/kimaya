@@ -13,19 +13,19 @@ const features = [
     icon: <FaUserTie />,
     title: "Consultative Approach",
     description:
-      "We take the time to understand your business, culture, and hiring goals to deliver talent that truly fits your organization.",
+      "We take the time to understand your business, culture and hiring goals to deliver talent that truly fits your organization.",
   },
   {
     icon: <FaIndustry />,
     title: "Industry Expertise",
     description:
-      "Our recruiters specialize across Technology, Healthcare, Manufacturing, Finance, Education, and Global Capability Centers.",
+      "Our recruiters specialize across Technology, Healthcare, Manufacturing, Finance, Education and Global Capability Centers.",
   },
   {
     icon: <FaCheckCircle />,
     title: "Quality Talent",
     description:
-      "Every candidate is carefully screened for technical skills, experience, and cultural alignment before presentation.",
+      "Every candidate is carefully screened for technical skills, experience and cultural alignment before presentation.",
   },
   {
     icon: <FaBolt />,
@@ -86,11 +86,11 @@ const WhyChooseUs = () => {
         >
           <Row className="g-4">
             {features.map((item, index) => (
-              <Col lg={4} md={6} key={index}>
+              <Col md={4} key={index}>
                 <motion.div
                   variants={cardVariants}
                   whileHover={{ y: -8, scale: 1.01 }}
-                  className="group h-100 bg-[#F8F6FD] rounded-4 p-5 border border-transparent hover:border-orange-500 hover:shadow-xl transition-all duration-300"
+                  className="group h-100 bg-[#F8F6FD] rounded-4 p-3 border border-transparent hover:border-orange-500 hover:shadow-xl transition-all duration-300"
                 >
                   <div className="flex flex-col justify-center items-center text-center">
                     <div className="flex-shrink-0">

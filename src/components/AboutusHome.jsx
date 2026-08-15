@@ -247,7 +247,7 @@ const AboutusHome = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8 }}
-          className="mt-6"
+          className="mt-6 pt-4"
         >
 
           <Row className="justify-content-center">

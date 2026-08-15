@@ -56,9 +56,11 @@ const Industries = () => {
               </p> 
             </Col>
 
-            <Col lg={6}>
-              <img src={industryMap} className="w-auto h-3/4" />
-              <div className="flex justify-content-end mt-3">
+            <Col lg={6} className="flex justify-center">
+              <img src={industryMap} className="w-auto h-auto md:h-3/4" />
+              
+            </Col>
+            <div className="flex justify-content-end mb-3">
           <NavLink
             to={"/industries"}
             className="hover:text-white !text-[#2D1663] px-8 py-2 
@@ -68,7 +70,6 @@ const Industries = () => {
             <FaArrowRight />
           </NavLink>
         </div>
-            </Col>
           </Row>
           
         </Container>
