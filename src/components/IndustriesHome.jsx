@@ -20,7 +20,7 @@ const Industries = () => {
           </p>
         </div> */}
 
-      <section className="relative items-center overflow-hidden bg-[#FEF2EF] pt-4">
+      <section className="relative items-center overflow-hidden bg-[#FEF2EF] py-4">
         <div className="text-center mb-6 max-w-3xl mx-auto">
           <h className="mt-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">
             INDUSTRIES
@@ -60,7 +60,7 @@ const Industries = () => {
               <img src={industryMap} className="w-auto h-auto md:h-3/4" />
               
             </Col>
-            <div className="flex justify-content-end mb-3">
+            {/* <div className="flex justify-content-end mb-3">
           <NavLink
             to={"/industries"}
             className="hover:text-white !text-[#2D1663] px-8 py-2 
@@ -69,7 +69,7 @@ const Industries = () => {
             Read More
             <FaArrowRight />
           </NavLink>
-        </div>
+        </div> */}
           </Row>
           
         </Container>

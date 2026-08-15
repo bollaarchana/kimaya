@@ -1,7 +1,23 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../public/images/kimaya.logo.jpeg"; // change path
 
 const Footer = () => {
+  const location = useLocation();
+
+const handleHomeClick = (e) => {
+  if (location.pathname === "/") {
+    e.preventDefault();
+
+    // Remove #industries
+    window.history.replaceState(null, "", "/");
+
+    // Go to top
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+};
   return (
     <>
       {/* <footer
@@ -321,22 +337,22 @@ const Footer = () => {
         </div>
       </footer> */}
       <footer className="relative bg-[#080B11] text-gray-300 pt-16 pb-10 overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-b from-cyan-900/10 via-transparent to-black/70 pointer-events-none"></div>
-        <div class="relative container mx-auto px-6 md:px-12 z-10">
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
-            <div class="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+        <div className="absolute inset-0 bg-gradient-to-b from-cyan-900/10 via-transparent to-black/70 pointer-events-none"></div>
+        <div className="relative container mx-auto px-6 md:px-12 z-10">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
+            <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
               <img
                 alt="Company Logo"
-                class="w-58 h-auto mb-2 drop-shadow-lg bg-white"
+                className="w-58 h-auto mb-2 drop-shadow-lg bg-white"
                 src={logo}
               />
-              <p class="text-gray-400 leading-relaxed max-w-xs text-sm">
+              <p className="text-gray-400 leading-relaxed max-w-xs text-sm">
                 When the right people meet the right opportunities,
                 extraordinary things happen
               </p>
             </div>
             <div>
-              <h3 class="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
+              <h3 className="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
                 Our Services
               </h3>
               <div className="grid grid-cols-1 gap-y-3 text-gray-400 text-sm">
@@ -498,12 +514,14 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h3 class="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
+              <h3 className="text-white text-lg font-semibold mb-4 relative after:content-[''] after:block after:w-10 after:h-1 after:bg-cyan-500 after:mt-2">
                 Quick Links
               </h3>
-              <ul class="space-y-2 text-gray-400 text-sm">
+              <ul className="space-y-2 text-gray-400 text-sm">
                 <li>
-                  <Link to={"/"} className="hover:text-white transition-colors">
+                  <Link to={"/"} 
+                    onClick={handleHomeClick}
+ className="hover:text-white transition-colors">
                     Home
                   </Link>
                 </li>
@@ -525,7 +543,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to={"/industries"}
+                    to={"/#industries"}
                     className="hover:text-white transition-colors"
                   >
                     Industries
@@ -560,10 +578,10 @@ const Footer = () => {
                   <svg
                     stroke="currentColor"
                     fill="none"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-1"
                     height="1em"
                     width="1em"
@@ -585,10 +603,10 @@ const Footer = () => {
                   <svg
                     stroke="currentColor"
                     fill="none"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="w-5 h-5 text-cyan-400 flex-shrink-0"
                     height="1em"
                     width="1em"
@@ -607,10 +625,10 @@ const Footer = () => {
                   <svg
                     stroke="currentColor"
                     fill="none"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="w-5 h-5 text-cyan-400 flex-shrink-0"
                     height="1em"
                     width="1em"

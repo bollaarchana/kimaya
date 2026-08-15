@@ -12,7 +12,9 @@ export default function Home() {
       <Hero />
       <ServicesHome />
       <AboutusHome />
-      <IndustriesHome />
+      <section id="industries" className="scroll-mt-24">
+  <IndustriesHome />
+</section>
     </Suspense>
   );
 }
