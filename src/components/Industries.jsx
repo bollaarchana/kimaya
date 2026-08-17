@@ -1,28 +1,27 @@
-import { Container, Row, Col } from "react-bootstrap";
-import industryMap from "../assets/industries.png";
+import { Container } from "react-bootstrap";
 
-const features = [
-  {
-    title: "Domain Specialists",
-    description:
-      "Recruiters with deep industry knowledge and specialized talent networks.",
-  },
-  {
-    title: "Faster Hiring",
-    description:
-      "Reduced hiring time through targeted sourcing and market expertise.",
-  },
-  {
-    title: "Quality Candidates",
-    description:
-      "Professionals who match your technical, cultural and business needs.",
-  },
-  {
-    title: "Global Reach",
-    description:
-      "Supporting enterprises and GCCs with international hiring capabilities.",
-  },
-];
+// const features = [
+//   {
+//     title: "Domain Specialists",
+//     description:
+//       "Recruiters with deep industry knowledge and specialized talent networks.",
+//   },
+//   {
+//     title: "Faster Hiring",
+//     description:
+//       "Reduced hiring time through targeted sourcing and market expertise.",
+//   },
+//   {
+//     title: "Quality Candidates",
+//     description:
+//       "Professionals who match your technical, cultural and business needs.",
+//   },
+//   {
+//     title: "Global Reach",
+//     description:
+//       "Supporting enterprises and GCCs with international hiring capabilities.",
+//   },
+// ];
 
 const industries = [
   {

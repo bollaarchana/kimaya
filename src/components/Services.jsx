@@ -1,7 +1,10 @@
+import { useRef } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 import "swiper/css";
+
 import {
   FaLaptopCode,
   FaUserTie,
@@ -71,7 +74,11 @@ const services = [
   },
 ];
 
+
 const Service = () => {
+  const swiperRef = useRef(null);
+
+
   return (
     <>
       <section className="relative items-center overflow-hidden bg-orange-500 py-3">
@@ -86,11 +93,18 @@ const Service = () => {
           </p>
 
           <Swiper
-            modules={[Autoplay]}
-            slidesPerView={3}
+ modules={[Autoplay, Navigation]}
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+            }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            loop={true}              slidesPerView={3}
             spaceBetween={10}
-            autoplay={{ delay: 3000 }}
-            loop={true}
+            
+    
             breakpoints={{
               320: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
@@ -119,6 +133,58 @@ const Service = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+         <button
+            type="button"
+            onClick={() => swiperRef.current?.slidePrev()}
+            aria-label="Previous service"
+            className="
+              absolute
+              left-0
+              top-1/2
+              -translate-y-1/2
+              z-20
+              w-10 h-10
+              rounded-full
+              text-[#2D1663]
+              flex items-center justify-center
+              shadow-lg
+              hover:bg-[#2D1663]
+              hover:text-white
+              transition-all duration-300
+            "
+          >
+            <ChevronLeft size={24} strokeWidth={2.5} />
+          </button>
+
+
+          {/* RIGHT ARROW */}
+
+          <button
+            type="button"
+            onClick={() => swiperRef.current?.slideNext()}
+            aria-label="Next service"
+            className="
+              absolute
+              right-0
+              top-1/2
+              -translate-y-1/2
+              z-20
+              w-10 h-10
+              rounded-full
+              text-#2D1663
+              flex items-center justify-center
+              shadow-lg
+              hover:bg-[#2D1663]
+              hover:text-white
+              transition-all duration-300
+            "
+          >
+            <ChevronRight size={24} strokeWidth={2.5} />
+          </button>
+
+        
+
+
         </div>
       </section>
     </>
@@ -127,50 +193,3 @@ const Service = () => {
 
 export default Service;
 
-// const Service = () => {
-//   return (
-//     <section className="relative items-center overflow-hidden bg-orange-500">
-// <div className="text-center mb-16 max-w-3xl mx-auto">
-//   <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
-//      OUR SERVICES
-//   </h2>
-
-//   {/* <div className="w-20 h-1 bg-orange-500 rounded-full mx-auto mt-6"></div> */}
-
-//   <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
-//     We provide comprehensive recruitment, staffing, consulting and training
-//     solutions to help organizations attract, develop and retain exceptional
-//     talent.
-//   </p>
-// </div>
-
-// <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-//   {services.map((service, index) => (
-//     <div
-//       key={index}
-//       className="relative flex flex-col justify-start items-center text-center h-full min-h-[360px] group rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-orange-500"
-//     >
-//       <div
-//         className={`w-18 h-18 rounded-full flex items-center justify-center text-3xl ${service.bg} ${service.color} group-hover:bg-[#2D1663] group-hover:text-white transition-all`}
-//       >
-//         {service.icon}
-//       </div>
-
-//       <h3 className="mt-6 text-2xl font-bold text-[#2D1663]">
-//         {service.title}
-//       </h3>
-
-//       <p className="mt-4 text-gray-600 leading-7">
-//         {service.description}
-//       </p>
-
-//       {/* <button className="mt-6 text-orange-500 font-semibold hover:text-[#2D1663] transition">
-//         Learn More →
-//       </button> */}
-//     </div>
-//   ))}
-// </div>
-
-//     </section>
-//   );
-// };

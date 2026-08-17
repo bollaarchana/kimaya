@@ -137,7 +137,7 @@ const ContactUs = () => {
                 </div>
               </a>
               <a
-                href="https://www.google.com/maps?q=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081&output=embed"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Kimaya+Hiring+Solutions+Pvt+Ltd,+Unit+No+203,+2nd+Floor+Suite+No+441,+SBR+CV+Towers,+Sector-I,+Sy+No+64,+HUDA+Techno+Enclave,+Madhapur,+Hyderabad+500081"
                 className="flex justify-center
                                           group bg-white/5 p-2 rounded-2xl border border-white/5 md:bg-transparent 
                                           md:border-none md:p-0 transition-all duration-300 hover:bg-white/10"

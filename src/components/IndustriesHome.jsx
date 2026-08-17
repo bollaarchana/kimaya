@@ -1,7 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import industryMap from "../assets/industries1.png";
-import { NavLink } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
 
 const Industries = () => {
   return (
