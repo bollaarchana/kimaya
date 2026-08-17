@@ -24,13 +24,13 @@ const Footer = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-cyan-900/10 via-transparent to-black/70 pointer-events-none"></div>
         <div className="relative container mx-auto px-6 md:px-12 z-10">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
-            <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+            <div className="flex flex-col items-center text-center md:text-left space-y-4">
               <img
                 alt="Company Logo"
                 className="w-58 h-auto mb-2 drop-shadow-lg bg-white"
                 src={logo}
               />
-              <p className="text-gray-400 leading-relaxed max-w-xs text-sm">
+              <p className="text-gray-400 text-center leading-relaxed max-w-xs text-sm">
                 When the right people meet the right opportunities,
                 extraordinary things happen
               </p>
@@ -330,7 +330,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"
                   >
-                    www.kimayahiring.com
+                    hr@kimayahiring.com
                   </a>
                 </li>
               </ul>

@@ -4,20 +4,7 @@ import industryMap from "../assets/industries1.png";
 const Industries = () => {
   return (
     <>
-      {/* <section className="relative items-center overflow-hidden bg-orange-500 pb-4">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="mt-4 text-4xl lg:text-5xl !font-bold tracking-tight !text-[#2D1663]">
-            OUR SERVICES
-          </h2>
-
-
-          <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
-            We provide comprehensive recruitment, staffing, consulting and
-            training solutions to help organizations attract, develop and
-            retain exceptional talent.
-          </p>
-        </div> */}
-
+      
       <section className="relative items-center overflow-hidden bg-[#FEF2EF] py-4">
         <div className="text-center mb-6 max-w-3xl mx-auto">
           <h className="mt-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">

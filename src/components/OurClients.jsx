@@ -54,10 +54,10 @@ const Clients = () => {
           </h>
 
             <p className="mt-3 leading-tight text-[#2D1663] text-3xl lg:text-3xl font-extrabold text-primary-text tracking-tight mb-6">
-            Trusted by Growing Businesses
+            Trusted by Growing Business
           </p>
 
-              <p className="mt-8 leading-9 text-gray-600 text-sm">
+              <p className="mt-8 leading-9 text-gray-600 text-base">
             Building strong partnerships through the right talent.
           </p>
         </motion.div>

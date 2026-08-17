@@ -104,7 +104,7 @@ export default function ServicesHome() {
                 strokeWidth={2}
               />
 
-              <h className="text-white text-sm font-semibold">
+              <h className="text-white text-base font-semibold">
                 {item.title}
               </h>
             </div>
@@ -114,7 +114,7 @@ export default function ServicesHome() {
               {item.items.map((text, itemIndex) => (
                 <div
                   key={itemIndex}
-                  className="flex items-start gap-2 text-white-800 text-xs"
+                  className="flex items-start gap-2 text-white-800 text-sm"
                 >
                   <span className="text-cyan-400 mt-1">
                     •
