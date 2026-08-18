@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
+
 import {
   FaLaptopCode,
   FaUserTie,
@@ -11,15 +13,29 @@ import {
   Code2,
   TestTube2,
 } from "lucide-react";
+const cardVariants = {
+  hidden: {
+    opacity: 0,
+    y: 35,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  },
+};
 
-const techStack = [
+const techCategories = [
   {
     title: "Embedded Systems",
     icon: Cpu,
     items: [
       "Embedded C++",
       "Embedded Tester",
-      "Verification & Validation Engineer",
+      "Validation Engineer",
       "Embedded Support Engineer",
       "Embedded C++ Developer",
       "Firmware Developers",
@@ -35,13 +51,45 @@ const techStack = [
     ],
   },
   {
-    title: "Testing & Quality",
+    title: "Quality Assurance",
     icon: TestTube2,
     items: [
       "Manual & Automation Testing",
     ],
   },
 ];
+
+
+// const techStack = [
+//   {
+//     title: "Embedded Systems",
+//     icon: Cpu,
+//     items: [
+//       "Embedded C++",
+//       "Embedded Tester",
+//       "Verification & Validation Engineer",
+//       "Embedded Support Engineer",
+//       "Embedded C++ Developer",
+//       "Firmware Developers",
+//     ],
+//   },
+//   {
+//     title: "Software Development",
+//     icon: Code2,
+//     items: [
+//       "Business Analysts",
+//       "Developers",
+//       "Senior Developers",
+//     ],
+//   },
+//   {
+//     title: "Testing & Quality",
+//     icon: TestTube2,
+//     items: [
+//       "Manual & Automation Testing",
+//     ],
+//   },
+// ];
 const services = [
   {
     icon: <FaLaptopCode />,
@@ -81,60 +129,110 @@ export default function ServicesHome() {
   return (
     <section className="relative items-center overflow-hidden bg-orange-500 py-4">
       <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h className="mt-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">
+          <h className="my-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">
           OUR SERVICES
         </h>
         
         
       {/* <div className="w-full bg-[#080B11] py-10">
   <div className="max-w-7xl mx-auto px-6"> */}
+   <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{
+              once: true,
+              amount: 0.1,
+            }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-4"
+          >
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {techCategories.map((category, index) => {
 
-      {techStack.map((item, index) => {
-        const Icon = item.icon;
+              const Icon = category.icon;
 
-        return (
-          <div key={index}>
-
-            {/* Title + Icon */}
-            <div className="flex items-center gap-2 my-4">
-              <Icon
-                className="w-5 h-5 text-cyan-400"
-                strokeWidth={2}
-              />
-
-              <h className="text-white text-base font-semibold">
-                {item.title}
-              </h>
-            </div>
-
-            {/* Text Items */}
-            <div className="space-y-2">
-              {item.items.map((text, itemIndex) => (
-                <div
-                  key={itemIndex}
-                  className="flex items-start gap-2 text-white-800 text-sm"
+              return (
+                <motion.div
+                  key={category.index}
+                  variants={cardVariants}
+                  whileHover={{
+                    y: -7,
+                  }}
+                  className="group bg-white rounded-2xl border border-gray-100 p-4 shadow-sm hover:shadow-xl transition-shadow duration-300"
                 >
-                  <span className="text-cyan-400 mt-1">
-                    •
-                  </span>
 
-                  <span>
-                    {text}
-                  </span>
-                </div>
-              ))}
+                  {/* Icon */}
+
+                  {/* <div
+                    className="w-10 h-10 rounded-xl bg-[#2D1663]/10 
+                               flex items-center justify-center
+                               text-[#2D1663]
+                               group-hover:bg-[#2D1663]
+                               group-hover:text-white
+                               transition-all duration-300"
+                  >
+                    <Icon size={27} strokeWidth={1.8} />
+                    <h5 className="mt-6 text-xl font-bold text-[#2D1663]">
+                    {category.title}
+                  </h5>
+
+                  </div> */}
+                  <div className="flex items-center gap-1 mb-4">
+                                  <Icon size={20} strokeWidth={1.8} />
+
+{/* // className="w-4 h-4 rounded-xl bg-[#2D1663]/10 
+//                                flex items-center justify-center
+//                                text-[#2D1663]
+//                                group-hover:bg-[#2D1663]
+//                                group-hover:text-white
+//                                transition-all duration-300"
+//                                   strokeWidth={2} */}
+              
+
+                    <p className="mt-6 text-sm font-bold text-[#2D1663]">
+                {category.title}
+              </p>
             </div>
 
-          </div>
-        );
-      })}
 
-    </div>
+                  {/* Heading */}
 
-  {/* </div>
-</div> */}
+                  
+
+                  
+                  {/* Items */}
+
+                  <ul className="space-y-3">
+
+                    {category.items.map((item) => (
+
+                      <li
+                        key={item}
+                        className="flex items-start gap-2 text-sm text-gray-700"
+                      >
+
+                        <span
+                          className="mt-1.5 flex-shrink-0 w-2 h-2 rounded-full bg-orange-500"
+                        />
+
+                        <span className="leading-relaxed">
+                          {item}
+                        </span>
+
+                      </li>
+
+                    ))}
+
+                  </ul>
+
+                </motion.div>
+              );
+            })}
+
+          </motion.div>
+
+
+    
+  
       </div>
 
 
@@ -175,4 +273,51 @@ export default function ServicesHome() {
 }
 
 
+{/* <div className="w-full bg-[#080B11] py-10">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      {techStack.map((item, index) => {
+        const Icon = item.icon;
+
+        return (
+          <div key={index}>
+
+            <div className="flex items-center gap-2 mb-4">
+              <Icon
+                className="w-6 h-6 text-cyan-400"
+                strokeWidth={2}
+              />
+
+              <h3 className="text-white text-lg font-semibold">
+                {item.title}
+              </h3>
+            </div>
+
+            <div className="space-y-2">
+              {item.items.map((text, itemIndex) => (
+                <div
+                  key={itemIndex}
+                  className="flex items-start gap-2 text-gray-400 text-sm"
+                >
+                  <span className="text-cyan-400 mt-1">
+                    •
+                  </span>
+
+                  <span>
+                    {text}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        
+      
+
+    </div>
+
+  </div>
+</div> */}
 
