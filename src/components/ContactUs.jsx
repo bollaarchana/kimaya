@@ -27,17 +27,7 @@ const ContactUs = () => {
           </div>
         </section>
 
-        {/* <section className="py-12 bg-white relative overflow-hidden">
-          <div
-            className="absolute inset-0 opacity-[0.04]"
-            style={{
-    backgroundImage:
-      "radial-gradient(circle, rgb(30, 41, 59) 1px, transparent 1px)",
-    backgroundSize: "28px 28px",
-  }}
-          ></div>
-          
-        </section> */}
+        
         <section
           className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
           style={{

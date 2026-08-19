@@ -3,16 +3,13 @@ import industryMap from "../assets/industries1.png";
 
 const Industries = () => {
   return (
-    <>
-      
+    <>    
       <section className="relative items-center overflow-hidden bg-[#FEF2EF] py-4">
         <div className="text-center mb-6 max-w-3xl mx-auto">
           <h className="mt-4 text-3xl lg:text-4xl font-extrabold text-primary-text tracking-tight text-[#2D1663]">
             INDUSTRIES
           </h>
-
           </div>
-
         <Container fluid="xxl">
           <Row>
             <Col lg={6}>
@@ -22,13 +19,11 @@ const Industries = () => {
                   <span className="text-orange-500">{" "}Drives Better Hiring
 </span>
                 </span>
-
                 <span className="block mt-2">
                 Specialized Recruitment{" "}
                   <span className="text-orange-500"> Across Industries.</span>
                 </span>
-              </p>
-             
+              </p>            
               <p className="mt-8 leading-9 text-gray-600 text-sm">
                 Kimaya Hiring brings deep domain expertise across a diverse range
                 of industries — from high-growth technology startups to
@@ -40,25 +35,11 @@ const Industries = () => {
                 world-class talent solutions to international markets.
               </p> 
             </Col>
-
             <Col lg={6} className="flex justify-center">
-              <img src={industryMap} className="w-auto h-auto md:h-3/4" />
-              
-            </Col>
-            {/* <div className="flex justify-content-end mb-3">
-          <NavLink
-            to={"/industries"}
-            className="hover:text-white !text-[#2D1663] px-8 py-2 
-                        flex items-center gap-3 font-semibold"
-          >
-            Read More
-            <FaArrowRight />
-          </NavLink>
-        </div> */}
+              <img src={industryMap} className="w-auto h-auto md:h-3/4" />             
+            </Col>         
           </Row>
-          
         </Container>
-        
       </section>
     </>
   );

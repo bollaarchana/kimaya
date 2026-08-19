@@ -1,13 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import Cards from './Cards'
-import WhyChooseUs from './WhyChooseUs'
+import Cards from "./Cards";
+import WhyChooseUs from "./WhyChooseUs";
 
 import { FaUsers } from "react-icons/fa";
 import { FaBuilding, FaUserCheck, FaSmileBeam } from "react-icons/fa";
-
-
 
 const statistics = [
   {
@@ -15,26 +13,25 @@ const statistics = [
     number: "18+",
     title: "Years of Experience",
     description:
-      "Delivering trusted recruitment and workforce consulting solutions."
+      "Delivering trusted recruitment and workforce consulting solutions.",
   },
   {
     icon: <FaBuilding />,
     number: "200+",
     title: "Clients Served",
-    description:
-      "Partnering with startups, SMEs and enterprise organizations."
+    description: "Partnering with startups, SMEs and enterprise organizations.",
   },
   {
     icon: <FaUserCheck />,
     number: "10K+",
     title: "Successful Placements",
-    description: "Connecting exceptional talent with leading organizations."
+    description: "Connecting exceptional talent with leading organizations.",
   },
   {
     icon: <FaSmileBeam />,
     number: "98%",
     title: "Client Satisfaction",
-    description: "Building long-term partnerships through quality and trust."
+    description: "Building long-term partnerships through quality and trust.",
   },
 ];
 
@@ -42,13 +39,9 @@ const Aboutus = () => {
   return (
     <>
       <section className="relative items-center overflow-hidden bg-[#F8F6FD] pt-3">
-            
-            <Cards />
-            <WhyChooseUs />
+        <Cards />
+        <WhyChooseUs />
 
-           
-        
-        
         <section className="py-20 bg-gradient-to-r from-[#2D1663] to-[#4A2B8C]">
           <Container fluid="xxl">
             {/* Heading */}
@@ -62,7 +55,6 @@ const Aboutus = () => {
                 Numbers That Reflect
                 <span className="text-orange-500"> Our Success</span>
               </h2>
-
 
               <p className="mt-6 text-white text-sm max-w-3xl mx-auto leading-8">
                 Our commitment to excellence and client satisfaction is
@@ -84,14 +76,9 @@ const Aboutus = () => {
                       {item.number}
                     </h2>
 
-
                     <h5 className="text-xl font-semibold text-white">
                       {item.title}
                     </h5>
-
-                    {/* <p className="text-orange-500 text-sm mt-3 leading-8">
-                      {item.description}
-                    </p> */}
                   </div>
                 </Col>
               ))}
@@ -114,7 +101,6 @@ const Aboutus = () => {
                 <span className="text-orange-500"> Winning Team?</span>
               </h2>
 
-
               <p className="mt-8 text-sm text-white leading-8">
                 Whether you're hiring your first employee or scaling a global
                 workforce, Kimaya Hiring Solutions is here to help you attract,
@@ -129,8 +115,6 @@ const Aboutus = () => {
                   Request Consultation
                   <FaArrowRight />
                 </Link>
-
-               
               </div>
             </div>
           </Container>

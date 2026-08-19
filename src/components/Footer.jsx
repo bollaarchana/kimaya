@@ -94,21 +94,6 @@ const Footer = () => {
                   <span>Contract Staffing</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300">
-                  {/* <svg
-                    stroke="currentColor"
-                    fill="none"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="text-cyan-400 w-5 h-5"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                    <polyline points="17 6 23 6 23 12"></polyline>
-                  </svg>  */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     stroke="currentColor"
@@ -236,16 +221,7 @@ const Footer = () => {
                     Industries
                   </Link>
                 </li>
-                {/* <li>
-                  <Link to={"/insights"} className="hover:text-white transition-colors">
-                    Insights
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/careers"} className="hover:text-white transition-colors">
-                    Careers
-                  </Link>
-                </li> */}
+
                 <li>
                   <Link
                     to={"/contact"}

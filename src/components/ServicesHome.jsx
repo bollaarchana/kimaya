@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { motion } from "framer-motion";
-import { Container } from "react-bootstrap";
 import { Users, Bot, Database, TrendingUp, Layers } from "lucide-react";
 
 const capabilities = [
@@ -33,77 +31,7 @@ import {
   FaHandshake,
   FaArrowRight,
 } from "react-icons/fa";
-import { Cpu, Code2, TestTube2 } from "lucide-react";
-const cardVariants = {
-  hidden: {
-    opacity: 0,
-    y: 35,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
-  },
-};
 
-const techCategories = [
-  {
-    title: "Embedded Systems",
-    icon: Cpu,
-    items: [
-      "Embedded C++",
-      "Embedded Tester",
-      "Validation Engineer",
-      "Embedded Support Engineer",
-      "Embedded C++ Developer",
-      "Firmware Developers",
-    ],
-  },
-  {
-    title: "Software Development",
-    icon: Code2,
-    items: ["Business Analysts", "Developers", "Senior Developers"],
-  },
-  {
-    title: "Quality Assurance",
-    icon: TestTube2,
-    items: ["Manual & Automation Testing"],
-  },
-];
-
-// const techStack = [
-//   {
-//     title: "Embedded Systems",
-//     icon: Cpu,
-//     items: [
-//       "Embedded C++",
-//       "Embedded Tester",
-//       "Verification & Validation Engineer",
-//       "Embedded Support Engineer",
-//       "Embedded C++ Developer",
-//       "Firmware Developers",
-//     ],
-//   },
-//   {
-//     title: "Software Development",
-//     icon: Code2,
-//     items: [
-//       "Business Analysts",
-//       "Developers",
-//       "Senior Developers",
-//     ],
-//   },
-//   {
-//     title: "Testing & Quality",
-//     icon: TestTube2,
-//     items: [
-//       "Manual & Automation Testing",
-//     ],
-//   },
-// ];
 const services = [
   {
     icon: <FaLaptopCode />,
@@ -171,7 +99,6 @@ export default function ServicesHome() {
           </div>
         </div>
       </div>
-
       <div className="container pb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <div className="mt-2" key={index}>

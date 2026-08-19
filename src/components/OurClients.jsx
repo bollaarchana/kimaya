@@ -37,11 +37,9 @@ const clients = [
 const Clients = () => {
   return (
     <section className="bg-[#F7F4FD] min-h-screen py-4 md:py-28 overflow-hidden">
-
       {/* Heading */}
 
       <div className="max-w-6xl mx-auto px-6">
-
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -53,15 +51,14 @@ const Clients = () => {
             Our Clients
           </h>
 
-            <p className="mt-3 leading-tight text-[#2D1663] text-3xl lg:text-3xl font-extrabold text-primary-text tracking-tight mb-6">
+          <p className="mt-3 leading-tight text-[#2D1663] text-3xl lg:text-3xl font-extrabold text-primary-text tracking-tight mb-6">
             Trusted by Growing Business
           </p>
 
-              <p className="mt-8 leading-9 text-gray-600 text-base">
+          <p className="mt-8 leading-9 text-gray-600 text-base">
             Building strong partnerships through the right talent.
           </p>
         </motion.div>
-
 
         {/* Client Logos */}
 
@@ -79,9 +76,7 @@ const Clients = () => {
           }}
           className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6"
         >
-
           {clients.map((client, index) => (
-
             <motion.div
               key={`${client.name}-${index}`}
               variants={{
@@ -105,7 +100,6 @@ const Clients = () => {
                          justify-center p-6 shadow-sm 
                          hover:shadow-lg transition-shadow duration-300"
             >
-
               {/* Logo */}
 
               <motion.img
@@ -121,18 +115,16 @@ const Clients = () => {
 
               {/* Name */}
 
-              <p className="mt-4 text-sm font-medium text-gray-600 
+              <p
+                className="mt-4 text-sm font-medium text-gray-600 
                             group-hover:text-[#2D1663] text-center 
-                            transition-colors duration-300">
+                            transition-colors duration-300"
+              >
                 {client.name}
               </p>
-
             </motion.div>
-
           ))}
-
         </motion.div>
-
 
         {/* Small closing statement */}
 
@@ -145,7 +137,6 @@ const Clients = () => {
         >
           Proud to be a trusted talent partner.
         </motion.p>
-
       </div>
     </section>
   );

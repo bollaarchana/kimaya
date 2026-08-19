@@ -73,12 +73,8 @@ const services = [
     bg: "bg-[#F5F1FD]",
   },
 ];
-
-
 const Service = () => {
   const swiperRef = useRef(null);
-
-
   return (
     <>
       <section className="relative items-center overflow-hidden bg-orange-500 py-3">
@@ -88,12 +84,11 @@ const Service = () => {
           </h>
           <p className="mt-2 text-white font-semibold px-1 text-sm max-w-3xl mx-auto leading-relaxed">
             We provide comprehensive recruitment, staffing, consulting and
-            training solutions to help organizations attract, develop and
-            retain exceptional talent.
+            training solutions to help organizations attract, develop and retain
+            exceptional talent.
           </p>
-
           <Swiper
- modules={[Autoplay, Navigation]}
+            modules={[Autoplay, Navigation]}
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
             }}
@@ -101,10 +96,9 @@ const Service = () => {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            loop={true}              slidesPerView={3}
+            loop={true}
+            slidesPerView={3}
             spaceBetween={10}
-            
-    
             breakpoints={{
               320: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
@@ -124,7 +118,6 @@ const Service = () => {
                     <p className="mt-1 text-lg font-bold !text-[#2D1663]">
                       {service.title}
                     </p>
-
                     <p className="mt-1 text-gray-600 text-sm leading-7">
                       {service.description}
                     </p>
@@ -133,7 +126,7 @@ const Service = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-         <button
+          <button
             type="button"
             onClick={() => swiperRef.current?.slidePrev()}
             aria-label="Previous service"
@@ -155,10 +148,7 @@ const Service = () => {
           >
             <ChevronLeft size={24} strokeWidth={2.5} />
           </button>
-
-
           {/* RIGHT ARROW */}
-
           <button
             type="button"
             onClick={() => swiperRef.current?.slideNext()}
@@ -181,10 +171,6 @@ const Service = () => {
           >
             <ChevronRight size={24} strokeWidth={2.5} />
           </button>
-
-        
-
-
         </div>
       </section>
     </>
@@ -192,4 +178,3 @@ const Service = () => {
 };
 
 export default Service;
-
