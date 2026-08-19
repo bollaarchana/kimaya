@@ -313,7 +313,7 @@ const Footer = () => {
             </div>
           </div>
           <hr className="my-10 border-gray-700" />
-          <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
             <p className="text-gray-500 text-sm">
               © 2026{" "}
               <span className="text-white font-semibold">
@@ -321,17 +321,17 @@ const Footer = () => {
               </span>{" "}
               — All Rights Reserved.
             </p>
-            {/* <p className="text-gray-500 text-sm">
+             <p className="text-gray-500 text-sm">
               Designed &amp; Developed by{" "}
               <a
-                href="https://www.linkedin.com/in/vineeth-madishetti-4a7285150/"
+                href="https://vedaitech.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyan-400 font-semibold hover:text-cyan-300 underline transition-colors"
               >
-                Vineeth Madishetti
+                VED AI TECH PVT LTD
               </a>
-            </p> */}
+            </p> 
           </div>
         </div>
       </footer>

@@ -6,6 +6,7 @@ import smartSoc from "../assets/SS-Logo-Horizontal-PNG-Final-Nov-12-1-1.png";
 import svtek from "../assets/logo.png";
 import trunksoft from "../assets/trunksoft_Logo.png";
 import manutechBlack from "../assets/logo_black.png";
+import ved from '../assets/VedAI-logo.webp'
 
 const clients = [
   {
@@ -32,6 +33,10 @@ const clients = [
     name: "Techril",
     logo: manutechBlack,
   },
+  {
+    name: "VED AI TECH PVT LTD",
+    logo: ved,
+  }
 ];
 
 const Clients = () => {
@@ -74,7 +79,7 @@ const Clients = () => {
               },
             },
           }}
-          className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6"
         >
           {clients.map((client, index) => (
             <motion.div

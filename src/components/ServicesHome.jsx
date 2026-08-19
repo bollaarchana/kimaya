@@ -79,7 +79,7 @@ export default function ServicesHome() {
         </p>
 
         <div className="container mx-auto px-3 md:px-4">
-          <div className="grid grid-cols-2 gap-x-1 pt-2 gap-y-4 sm:gap-x-2 lg:flex lg:flex-nowrap lg:items-center lg:justify-between lg:gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-x-1 pt-2 gap-y-4 sm:gap-x-2 lg:flex lg:flex-nowrap lg:items-center lg:justify-between lg:gap-3">
             {capabilities.map((item, index) => {
               const Icon = item.icon;
 
@@ -90,7 +90,7 @@ export default function ServicesHome() {
                 >
                   <Icon className="h-4 w-4 shrink-0 text-blue-800 lg:h-5 lg:w-5" />
 
-                  <span className="min-w-0 truncate text-center text-[10px] font-medium sm:text-xs lg:text-sm">
+                  <span className="min-w-0 truncate text-center text-[10px] font-medium sm:text-base lg:text-sm">
                     {item.title}
                   </span>
                 </div>
